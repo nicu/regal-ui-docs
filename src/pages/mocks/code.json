@@ -1,0 +1,2939 @@
+[
+  {
+    "agentId": "client:login_2Bcbs_40regalvoice_2Ecom",
+    "disposition": "Interested - Send Follow-up",
+    "taskSid": "WT26a60b2c69ce80fc154ee7f9311e00bf",
+    "createdAt": "1732364567",
+    "contactPhone": "+19283707704",
+    "status": "summarized",
+    "name": "Task Summary",
+    "objections": ["Other (See Notes)"],
+    "agentFullname": "Regal Voice Circle Bank Segment",
+    "eventType": "task",
+    "notes": "I  object!",
+    "dispositionedBy": "agent",
+    "rvInfo": "circle-bank-segment#event#task#Task Summary#1732364567#45b5557abc86cac0a6dd1a6b56517583",
+    "agentEmail": "login+cbs@regalvoice.com",
+    "title": "Outbound SMS"
+  },
+  {
+    "agentId": "client:nicu_40regalvoice_2Ecom",
+    "disposition": "Move Forward",
+    "taskSid": "WT0c37d9058b9403c92251391dd990f520",
+    "createdAt": "1732178391",
+    "contactPhone": "+19283707704",
+    "status": "summarized",
+    "name": "Task Summary",
+    "agentFullname": "Nicu Ciocan",
+    "eventType": "task",
+    "notes": "",
+    "dispositionedBy": "agent",
+    "rvInfo": "circle-bank-segment#event#task#Task Summary#1732178391#67dd8e2b2e6189186ab2a102f38d15f9",
+    "agentEmail": "nicu@regalvoice.com",
+    "title": "Inbound Email"
+  },
+  {
+    "subject": "Test",
+    "eventType": "email",
+    "createdAt": "1732133872",
+    "senderEmail": {
+      "name": "Nicu Ciocan",
+      "address": "nicu.ciocan@clever-software-solutions.com"
+    },
+    "threadId": "75889080e06fa44f",
+    "bodySnippet": "Clever BWS",
+    "contactPhone": "+19283707704",
+    "messageId": "75889080e06fa44f",
+    "name": "Email Received",
+    "deliveredToEmails": [
+      {
+        "name": "",
+        "address": "nicu@regalvoice.com"
+      }
+    ],
+    "toEmails": [
+      {
+        "name": "Nicu Ciocan",
+        "address": "nicu@regalvoice.com"
+      }
+    ],
+    "rvInfo": "circle-bank-segment#event#email#Email Received#1732133872#6fa952e87e8bd3073d06645e503b83e0",
+    "bccEmails": [],
+    "ccEmails": []
+  },
+  {
+    "content": "...",
+    "eventType": "proxy_message_event",
+    "createdAt": "1732133808",
+    "contactPhone": "+19283707704",
+    "direction": "INBOUND",
+    "status": "sent",
+    "sessionSid": "CH7ef9f20dea5147e69588132292c6b526",
+    "smsMessageSid": "IM71c45b1603024ba39de64b64fcb9c298",
+    "regalVoicePhone": "+14062956306",
+    "rvInfo": "circle-bank-segment#event#proxy_message_event#Proxy Message#1732133808#59853c77b48e5d9a2f7413d8b3496f15",
+    "success": true
+  },
+  {
+    "content": "echo",
+    "eventType": "proxy_message_event",
+    "createdAt": "1732133780",
+    "contactPhone": "+19283707704",
+    "direction": "INBOUND",
+    "status": "sent",
+    "sessionSid": "CH7ef9f20dea5147e69588132292c6b526",
+    "smsMessageSid": "IMd43e38ce1f16453282be27118002b8af",
+    "regalVoicePhone": "+14062956306",
+    "rvInfo": "circle-bank-segment#event#proxy_message_event#Proxy Message#1732133780#4e273a7be2c4ef4b527b98837bf91854",
+    "success": true
+  },
+  {
+    "agentId": "client:nicu_40regalvoice_2Ecom",
+    "disposition": "No longer needed",
+    "taskSid": "WT79c2d77e98d3d1b02e6a22970f774544",
+    "createdAt": "1732133769",
+    "contactPhone": "+19283707704",
+    "status": "summarized",
+    "name": "Task Summary",
+    "agentFullname": "Nicu Ciocan",
+    "eventType": "task",
+    "notes": "",
+    "dispositionedBy": "agent",
+    "rvInfo": "circle-bank-segment#event#task#Task Summary#1732133769#3a515e6e4eb6b2b88ef9f8c4126b67af",
+    "agentEmail": "nicu@regalvoice.com",
+    "title": "Outbound SMS"
+  },
+  {
+    "content": "hey long long name",
+    "eventType": "proxy_message_event",
+    "createdAt": "1732133718",
+    "contactPhone": "+19283707704",
+    "direction": "INBOUND",
+    "status": "sent",
+    "sessionSid": "CH7ef9f20dea5147e69588132292c6b526",
+    "smsMessageSid": "IMe900acb250b9489dacd8e7670d918fef",
+    "regalVoicePhone": "+14062956306",
+    "rvInfo": "circle-bank-segment#event#proxy_message_event#Proxy Message#1732133718#46a848e63566a811d2c02ebb527f7cc8",
+    "success": true
+  },
+  {
+    "agentId": "client:nicu_40regalvoice_2Ecom",
+    "disposition": "Move Forward",
+    "taskSid": "WTfb9a900c4cc8973a2eb7cb115ae5bca5",
+    "createdAt": "1732133696",
+    "contactPhone": "+19283707704",
+    "status": "summarized",
+    "name": "Task Summary",
+    "agentFullname": "Nicu Ciocan",
+    "eventType": "task",
+    "notes": "",
+    "dispositionedBy": "agent",
+    "rvInfo": "circle-bank-segment#event#task#Task Summary#1732133696#22183c9ccfa664c3b55ef4bef238d569",
+    "agentEmail": "nicu@regalvoice.com",
+    "title": "Inbound Email"
+  },
+  {
+    "campaignName": "Tracker: Availability Value Prop",
+    "content": "Hey, Nicu Nicu Nicu Nicu Nicu Nicu Nicu Nicu Nicu Nicu Nicu it's Circle Bank. We almost forgot to tell you that as a customer, you have 24/7 access to live support! Call or text us whenever and we'll be happy to help!",
+    "eventType": "message_event",
+    "createdAt": "1732130342",
+    "contactPhone": "+19283707704",
+    "direction": "OUTBOUND",
+    "status": "queued",
+    "messageSid": "SM2a8a14af2266863f51b65e2ffdd0d343",
+    "campaignFriendlyId": "721",
+    "regalVoicePhone": "+14062956306",
+    "rvInfo": "circle-bank-segment#event#message_event#SMS#1732130342#4fca5319df548f7e7e58a173b86c1ed8",
+    "success": true
+  },
+  {
+    "agentId": "client:nicu_40regalvoice_2Ecom",
+    "disposition": "Autocomplete",
+    "taskSid": "WTcecd3a58712d9b7c079449ff27af9754",
+    "createdAt": "1732130206",
+    "contactPhone": "+19283707704",
+    "status": "summarized",
+    "name": "Task Summary",
+    "agentFullname": "Nicu Ciocan",
+    "eventType": "task",
+    "notes": "",
+    "dispositionedBy": "system",
+    "rvInfo": "circle-bank-segment#event#task#Task Summary#1732130206#67de6d99319646f47b58820ea3a288bd",
+    "agentEmail": "nicu@regalvoice.com",
+    "title": "Manual Outbound Call"
+  },
+  {
+    "subject": "Re: test",
+    "createdAt": "1732125961",
+    "senderEmail": {
+      "name": "Nicu Ciocan",
+      "address": "nicu.ciocan@clever-software-solutions.com"
+    },
+    "threadId": "e1d27c4ab063bb42",
+    "bodySnippet": "this is from Nicu ",
+    "contactPhone": "+19283707704",
+    "messageId": "14720c96bc24289e",
+    "name": "Email Received",
+    "eventType": "email",
+    "ccEmails": [
+      {
+        "name": "Nicu Ciocan",
+        "address": "nicu@regalvoice.com"
+      }
+    ],
+    "deliveredToEmails": [
+      {
+        "name": "",
+        "address": "nicu@regalvoice.com"
+      }
+    ],
+    "toEmails": [
+      {
+        "name": "Dana Scully",
+        "address": "dscully88487@gmail.com"
+      }
+    ],
+    "rvInfo": "circle-bank-segment#event#email#Email Received#1732125961#ee6608c1f8b6c61463e9584fbca4a0a3",
+    "bccEmails": []
+  },
+  {
+    "agentId": "client:nicu_40regalvoice_2Ecom",
+    "disposition": "Move Forward",
+    "taskSid": "WT7b8e078bf3e42fd3966c0dc758690c3e",
+    "createdAt": "1732125942",
+    "contactPhone": "+19283707704",
+    "status": "summarized",
+    "name": "Task Summary",
+    "agentFullname": "Nicu Ciocan",
+    "eventType": "task",
+    "notes": "",
+    "dispositionedBy": "agent",
+    "rvInfo": "circle-bank-segment#event#task#Task Summary#1732125942#95239a171d458492d36b566f759755d5",
+    "agentEmail": "nicu@regalvoice.com",
+    "title": "Inbound Email"
+  },
+  {
+    "subject": "Re: test",
+    "createdAt": "1732125922",
+    "senderEmail": {
+      "name": "Dana Scully",
+      "address": "dscully88487@gmail.com"
+    },
+    "threadId": "e1d27c4ab063bb42",
+    "bodySnippet": "it works ",
+    "contactPhone": "+19283707704",
+    "messageId": "77c9e299f1460189",
+    "name": "Email Received",
+    "eventType": "email",
+    "ccEmails": [
+      {
+        "name": "",
+        "address": "Nicu.Ciocan@clever-software-solutions.com"
+      }
+    ],
+    "deliveredToEmails": [
+      {
+        "name": "",
+        "address": "nicu@regalvoice.com"
+      }
+    ],
+    "toEmails": [
+      {
+        "name": "Nicu Ciocan",
+        "address": "nicu@regalvoice.com"
+      }
+    ],
+    "rvInfo": "circle-bank-segment#event#email#Email Received#1732125922#3b43558cf1f877b243a162c5b1ad8384",
+    "bccEmails": []
+  },
+  {
+    "subject": "test",
+    "eventType": "email",
+    "createdAt": "1732125868",
+    "senderEmail": {
+      "name": "Nicu Ciocan",
+      "address": "nicu@regalvoice.com"
+    },
+    "threadId": "e1d27c4ab063bb42",
+    "bodySnippet": "test",
+    "contactPhone": "+19283707704",
+    "messageId": "e1d27c4ab063bb42",
+    "name": "Email Sent",
+    "ccEmails": [
+      {
+        "name": "",
+        "address": "Nicu.Ciocan@clever-software-solutions.com"
+      }
+    ],
+    "toEmails": [
+      {
+        "name": "",
+        "address": "dscully88487@gmail.com"
+      }
+    ],
+    "rvInfo": "circle-bank-segment#event#email#Email Sent#1732125868#bccd1f4560fe862fcef871be91b450e3",
+    "deliveredToEmails": [],
+    "bccEmails": []
+  },
+  {
+    "subject": "Re: A",
+    "eventType": "email",
+    "createdAt": "1732125735",
+    "senderEmail": {
+      "name": "Nicu Ciocan",
+      "address": "nicu@regalvoice.com"
+    },
+    "threadId": "63dd88f372fc121f",
+    "bodySnippet": "hey",
+    "contactPhone": "+19283707704",
+    "messageId": "c258d902089df9c7",
+    "name": "Email Sent",
+    "toEmails": [
+      {
+        "name": "",
+        "address": "nicu.ciocan@clever-software-solutions.com"
+      }
+    ],
+    "rvInfo": "circle-bank-segment#event#email#Email Sent#1732125735#c1de4fbd28dd6f1083e93a6e8686ef13",
+    "deliveredToEmails": [],
+    "bccEmails": [],
+    "ccEmails": []
+  },
+  {
+    "subject": "A",
+    "eventType": "email",
+    "createdAt": "1732125691",
+    "senderEmail": {
+      "name": "Nicu Ciocan",
+      "address": "nicu.ciocan@clever-software-solutions.com"
+    },
+    "threadId": "63dd88f372fc121f",
+    "bodySnippet": "A",
+    "contactPhone": "+19283707704",
+    "messageId": "63dd88f372fc121f",
+    "name": "Email Received",
+    "deliveredToEmails": [
+      {
+        "name": "",
+        "address": "nicu@regalvoice.com"
+      }
+    ],
+    "toEmails": [
+      {
+        "name": "Nicu Ciocan",
+        "address": "nicu@regalvoice.com"
+      }
+    ],
+    "rvInfo": "circle-bank-segment#event#email#Email Received#1732125691#7d41f5939a08af52f0abe8081567f1a3",
+    "bccEmails": [],
+    "ccEmails": []
+  },
+  {
+    "agentId": "client:nicu_40regalvoice_2Ecom",
+    "disposition": "Interested - Send Follow-up",
+    "taskSid": "WT3149e6bcb9ddc8bd4cfab23b1631b586",
+    "createdAt": "1732125662",
+    "contactPhone": "+19283707704",
+    "status": "summarized",
+    "name": "Task Summary",
+    "agentFullname": "Nicu Ciocan",
+    "eventType": "task",
+    "notes": "",
+    "dispositionedBy": "agent",
+    "rvInfo": "circle-bank-segment#event#task#Task Summary#1732125662#0871283cd8bc60a11cab2068c5bc2602",
+    "agentEmail": "nicu@regalvoice.com",
+    "title": "Manual Outbound Email"
+  },
+  {
+    "agentId": "client:nicu_40regalvoice_2Ecom",
+    "disposition": "Interested - Send Follow-up",
+    "taskSid": "WT9b502f3ddb12f9d8c7884a498d974d2f",
+    "createdAt": "1732046951",
+    "contactPhone": "+19283707704",
+    "status": "summarized",
+    "name": "Task Summary",
+    "agentFullname": "Nicu Ciocan",
+    "eventType": "task",
+    "notes": "",
+    "dispositionedBy": "agent",
+    "rvInfo": "circle-bank-segment#event#task#Task Summary#1732046951#5a9b63d0947c7a73b5db839d87105431",
+    "agentEmail": "nicu@regalvoice.com",
+    "title": "Inbound Email"
+  },
+  {
+    "subject": "Re: subject",
+    "eventType": "email",
+    "createdAt": "1732046934",
+    "senderEmail": {
+      "name": "Nicu Ciocan",
+      "address": "nicu.ciocan@clever-software-solutions.com"
+    },
+    "threadId": "c4cd6341380c75aa",
+    "bodySnippet": "Szia > On 19 Nov 2024, at 22:07, Nicu Ciocan <nicu@regalvoice.com> wrote: > > sent",
+    "contactPhone": "+19283707704",
+    "messageId": "a0ca37a209602408",
+    "name": "Email Received",
+    "deliveredToEmails": [
+      {
+        "name": "",
+        "address": "nicu@regalvoice.com"
+      }
+    ],
+    "toEmails": [
+      {
+        "name": "Nicu Ciocan",
+        "address": "nicu@regalvoice.com"
+      }
+    ],
+    "rvInfo": "circle-bank-segment#event#email#Email Received#1732046934#7cd41350421fc934615f7b291c28f625",
+    "bccEmails": [],
+    "ccEmails": []
+  },
+  {
+    "agentId": "client:nicu_40regalvoice_2Ecom",
+    "disposition": "Interested - Send Follow-up",
+    "taskSid": "WTd8bdcdfbda5986147a6382d634809dd4",
+    "createdAt": "1732046891",
+    "contactPhone": "+19283707704",
+    "status": "summarized",
+    "name": "Task Summary",
+    "agentFullname": "Nicu Ciocan",
+    "eventType": "task",
+    "notes": "",
+    "dispositionedBy": "agent",
+    "rvInfo": "circle-bank-segment#event#task#Task Summary#1732046891#e5e4712a0292162f2574d1ddaa79c10d",
+    "agentEmail": "nicu@regalvoice.com",
+    "title": "Manual Outbound Email"
+  },
+  {
+    "subject": "subject",
+    "eventType": "email",
+    "createdAt": "1732046869",
+    "senderEmail": {
+      "name": "Nicu Ciocan",
+      "address": "nicu@regalvoice.com"
+    },
+    "threadId": "c4cd6341380c75aa",
+    "bodySnippet": "sent",
+    "contactPhone": "+19283707704",
+    "messageId": "c4cd6341380c75aa",
+    "name": "Email Sent",
+    "toEmails": [
+      {
+        "name": "",
+        "address": "nicu.ciocan@clever-software-solutions.com"
+      }
+    ],
+    "rvInfo": "circle-bank-segment#event#email#Email Sent#1732046869#b3084423dd1cb277ab96789e22127ac9",
+    "deliveredToEmails": [],
+    "bccEmails": [],
+    "ccEmails": []
+  },
+  {
+    "eventType": "task",
+    "createdAt": "1732031873",
+    "contactPhone": "+19283707704",
+    "status": "canceled",
+    "name": "Task Canceled",
+    "rvInfo": "circle-bank-segment#event#task#Task Canceled#1732031873#276c122b79b579c9ff3d8bbb57f46409",
+    "title": "ASAP Callback",
+    "direction": "inbound",
+    "regalVoicePhone": "+14062956306",
+    "regalVoicePhoneFriendlyName": "Cobra Kai 2: This Time It's Personal"
+  },
+  {
+    "eventType": "task",
+    "createdAt": "1732031648",
+    "contactPhone": "+19283707704",
+    "status": "canceled",
+    "name": "Task Canceled",
+    "rvInfo": "circle-bank-segment#event#task#Task Canceled#1732031648#084d5dcfab578953810a7990f1ef9dfb",
+    "title": "Scheduled Callback",
+    "direction": "inbound",
+    "regalVoicePhone": "+14062956306",
+    "regalVoicePhoneFriendlyName": "Cobra Kai 2: This Time It's Personal"
+  },
+  {
+    "agentId": "client:nicu_40regalvoice_2Ecom",
+    "disposition": "Interested - Send Follow-up",
+    "taskSid": "WT40a95c40ffb10086f02c0d130644ff48",
+    "createdAt": "1732030863",
+    "contactPhone": "+19283707704",
+    "status": "summarized",
+    "name": "Task Summary",
+    "agentFullname": "Nicu Ciocan",
+    "eventType": "task",
+    "notes": "",
+    "dispositionedBy": "agent",
+    "rvInfo": "circle-bank-segment#event#task#Task Summary#1732030863#4529c25a213e39b3df67f0ab5374306d",
+    "agentEmail": "nicu@regalvoice.com",
+    "title": "Voicemail"
+  },
+  {
+    "eventType": "regal_voice_event",
+    "createdAt": "1732030752",
+    "name": "voicemail.transcript.available",
+    "contactPhone": "+19283707704",
+    "properties": {
+      "recording_link": "https://example.com/file.mp3",
+      "transcript": "This is my message after the beep. Thank you."
+    },
+    "rvInfo": "circle-bank-segment#event#regal_voice_event#voicemail.transcript.available#1732030752#69d175c6f6b5ef84af877295e5363ee3",
+    "callSid": "CA8b8efe49ce91fdaa0737e477f170e875"
+  },
+  {
+    "eventType": "regal_voice_event",
+    "createdAt": "1732030750",
+    "name": "voicemail.recording.available",
+    "contactPhone": "+19283707704",
+    "properties": {
+      "recording_link": "https://example.com/file.mp3",
+      "regal_voice_phone": "+14062956306",
+      "talk_time": 8,
+      "regal_voice_phone_friendly_name": "Cobra Kai 2: This Time It's Personal"
+    },
+    "rvInfo": "circle-bank-segment#event#regal_voice_event#voicemail.recording.available#1732030750#f8743ce749a8eb6a4dcb1598f2b85f7b",
+    "callSid": "CA8b8efe49ce91fdaa0737e477f170e875"
+  },
+  {
+    "eventType": "task",
+    "createdAt": "1732030727",
+    "contactPhone": "+19283707704",
+    "status": "canceled",
+    "name": "Task Canceled",
+    "rvInfo": "circle-bank-segment#event#task#Task Canceled#1732030727#768d575ee8895a2d3e1bcb75998fd77f",
+    "title": "Incoming Call",
+    "direction": "inbound",
+    "callSid": "CA8b8efe49ce91fdaa0737e477f170e875",
+    "regalVoicePhone": "+14062956306",
+    "regalVoicePhoneFriendlyName": "Cobra Kai 2: This Time It's Personal"
+  },
+  {
+    "eventType": "task",
+    "createdAt": "1732030714",
+    "contactPhone": "+19283707704",
+    "status": "canceled",
+    "name": "Task Canceled",
+    "rvInfo": "circle-bank-segment#event#task#Task Canceled#1732030714#62c6cec651b5235a53eb0fd0799c8c36",
+    "title": "Incoming Call",
+    "direction": "inbound",
+    "callSid": "CAf5cb95f232e211b88daa7cddb4c3177e",
+    "regalVoicePhone": "+14062956306",
+    "regalVoicePhoneFriendlyName": "Cobra Kai 2: This Time It's Personal"
+  },
+  {
+    "eventType": "regal_voice_event",
+    "createdAt": "1732030184",
+    "name": "voicemail.transcript.available",
+    "contactPhone": "+19283707704",
+    "properties": {
+      "recording_link": "https://example.com/file.mp3"
+    },
+    "rvInfo": "circle-bank-segment#event#regal_voice_event#voicemail.transcript.available#1732030184#912c456a47f99ac106776446e9566470",
+    "callSid": "CAcf581a9ef8e645744e7a7766e1529740"
+  },
+  {
+    "eventType": "regal_voice_event",
+    "createdAt": "1732030176",
+    "name": "voicemail.recording.available",
+    "contactPhone": "+19283707704",
+    "properties": {
+      "recording_link": "https://example.com/file.mp3",
+      "regal_voice_phone": "+14062956306",
+      "talk_time": 6,
+      "regal_voice_phone_friendly_name": "Cobra Kai 2: This Time It's Personal"
+    },
+    "rvInfo": "circle-bank-segment#event#regal_voice_event#voicemail.recording.available#1732030176#181c6b17c00d4daaacb85623640cf819",
+    "callSid": "CAcf581a9ef8e645744e7a7766e1529740"
+  },
+  {
+    "eventType": "task",
+    "createdAt": "1732030162",
+    "contactPhone": "+19283707704",
+    "status": "canceled",
+    "name": "Task Canceled",
+    "rvInfo": "circle-bank-segment#event#task#Task Canceled#1732030162#531e72dfa6b1da457b06a4ba4f0a6aa6",
+    "title": "Incoming Call",
+    "direction": "inbound",
+    "callSid": "CAcf581a9ef8e645744e7a7766e1529740",
+    "regalVoicePhone": "+14062956306",
+    "regalVoicePhoneFriendlyName": "Cobra Kai 2: This Time It's Personal"
+  },
+  {
+    "campaignName": "Tracker: Availability Value Prop",
+    "content": "Hey, Nicu Nicu Nicu Nicu Nicu Nicu Nicu Nicu Nicu Nicu Nicu it's Circle Bank. We almost forgot to tell you that as a customer, you have 24/7 access to live support! Call or text us whenever and we'll be happy to help!",
+    "eventType": "message_event",
+    "createdAt": "1732029501",
+    "contactPhone": "+19283707704",
+    "direction": "OUTBOUND",
+    "status": "queued",
+    "messageSid": "SMb057b5a8025d1b9b2f65b46b6e15cb38",
+    "campaignFriendlyId": "721",
+    "regalVoicePhone": "+14062956306",
+    "rvInfo": "circle-bank-segment#event#message_event#SMS#1732029501#15825a821b87f212a3aba052a6566209",
+    "success": true
+  },
+  {
+    "campaignName": "Tracker: Availability Value Prop",
+    "content": "Hey, Nicu Nicu Nicu Nicu Nicu Nicu Nicu Nicu Nicu Nicu Nicu it's Circle Bank. We almost forgot to tell you that as a customer, you have 24/7 access to live support! Call or text us whenever and we'll be happy to help!",
+    "eventType": "message_event",
+    "createdAt": "1732029452",
+    "contactPhone": "+19283707704",
+    "direction": "OUTBOUND",
+    "status": "queued",
+    "messageSid": "SM797dc2093c02759540d8483ef6fad17c",
+    "campaignFriendlyId": "721",
+    "regalVoicePhone": "+14062956306",
+    "rvInfo": "circle-bank-segment#event#message_event#SMS#1732029452#0a976f070ea10c0e95d5ad8b22fd98b7",
+    "success": true
+  },
+  {
+    "agentId": "client:nicu_40regalvoice_2Ecom",
+    "disposition": "Autocomplete",
+    "taskSid": "WTb2af6435d02bfd6d5b29407b4b23c091",
+    "createdAt": "1732029372",
+    "contactPhone": "+19283707704",
+    "status": "summarized",
+    "name": "Task Summary",
+    "agentFullname": "Nicu Ciocan",
+    "eventType": "task",
+    "notes": "",
+    "dispositionedBy": "system",
+    "rvInfo": "circle-bank-segment#event#task#Task Summary#1732029372#ae56d27458c3356b7bf046567aeabce0",
+    "agentEmail": "nicu@regalvoice.com",
+    "title": "Manual Outbound Call"
+  },
+  {
+    "agentId": "client:juan_40regalvoice_2Ecom",
+    "disposition": "New Dispo",
+    "taskSid": "WTb89bfd809fce64cb7a5f99334f762da6",
+    "createdAt": "1732029324",
+    "contactPhone": "+19283707704",
+    "status": "summarized",
+    "name": "Task Summary",
+    "agentFullname": "Juan Porley",
+    "eventType": "task",
+    "notes": "",
+    "dispositionedBy": "agent",
+    "rvInfo": "circle-bank-segment#event#task#Task Summary#1732029324#3c382ac680f0906e338fd99e7e5e1bde",
+    "agentEmail": "juan@regalvoice.com",
+    "title": "Incoming Call"
+  },
+  {
+    "eventType": "track",
+    "createdAt": "1732029287",
+    "name": "Scheduled Callback Request",
+    "contactPhone": "+19283707704",
+    "properties": {
+      "agent_fullname": "Nicu Ciocan",
+      "agent_id": "client:nicu_40regalvoice_2Ecom",
+      "callback_type": "scheduled",
+      "iso_callback_date": "2024-11-19 00:00:00 -05:00",
+      "iso_callback_timezone": "America/New_York",
+      "notes_from_agent": "",
+      "originating_task_sid": "WT8535f4eda3686d935d37bf2fbb5cb961",
+      "phone": "+19283707704",
+      "regal_voice_phone": "+14062956306",
+      "requested_through": "agent"
+    },
+    "rvInfo": "circle-bank-segment#event#track#Scheduled Callback Request#1732029287#03b5d09c175a4872179a076416605db0"
+  },
+  {
+    "eventType": "regal_voice_event",
+    "createdAt": "1731949414",
+    "name": "call.transcript.available",
+    "contactPhone": "+19283707704",
+    "rvInfo": "circle-bank-segment#event#regal_voice_event#call.transcript.available#1731949414#3a0d8c87ec6ed603e01cc6b6b89ea290",
+    "taskSid": "WT8535f4eda3686d935d37bf2fbb5cb961",
+    "callSummary": null,
+    "sentiments": null
+  },
+  {
+    "campaignName": "Price Drop Campaign",
+    "content": "XXX",
+    "eventType": "message_event",
+    "createdAt": "1731949301",
+    "contactPhone": "+19283707704",
+    "direction": "OUTBOUND",
+    "status": "queued",
+    "messageSid": "SMaee778b419538b88a42ead6fde44c134",
+    "campaignFriendlyId": "693",
+    "regalVoicePhone": "+14062956306",
+    "rvInfo": "circle-bank-segment#event#message_event#SMS#1731949301#4a400e25a6bca91f6fd49a8b86ddc085",
+    "success": true
+  },
+  {
+    "agentId": "client:nicu_40regalvoice_2Ecom",
+    "disposition": "Interested - Send Follow-up",
+    "taskSid": "WT26d4bc2a4358e5754d2225ff1b863f24",
+    "createdAt": "1731949292",
+    "contactPhone": "+19283707704",
+    "status": "summarized",
+    "name": "Task Summary",
+    "agentFullname": "Nicu Ciocan",
+    "eventType": "task",
+    "notes": "",
+    "dispositionedBy": "agent",
+    "rvInfo": "circle-bank-segment#event#task#Task Summary#1731949292#580ebc83a9bb12cb4dd1504201239250",
+    "agentEmail": "nicu@regalvoice.com",
+    "title": "Incoming Call"
+  },
+  {
+    "eventType": "regal_voice_event",
+    "createdAt": "1731942571",
+    "name": "call.transcript.available",
+    "contactPhone": "+19283707704",
+    "rvInfo": "circle-bank-segment#event#regal_voice_event#call.transcript.available#1731942571#ca69fcccfc3a36f1ee65403ab7f979bb",
+    "taskSid": "WT26d4bc2a4358e5754d2225ff1b863f24",
+    "callSummary": null,
+    "sentiments": null
+  },
+  {
+    "agentId": "client:nicu_40regalvoice_2Ecom",
+    "disposition": "Interested - Send Follow-up",
+    "taskSid": "WT49dab4ed84523d323e2e767919875cfd",
+    "createdAt": "1731699412",
+    "contactPhone": "+19283707704",
+    "status": "summarized",
+    "name": "Task Summary",
+    "agentFullname": "Nicu Ciocan",
+    "eventType": "task",
+    "notes": "",
+    "dispositionedBy": "agent",
+    "rvInfo": "circle-bank-segment#event#task#Task Summary#1731699412#774d0719d689de12d2afb4f1849d70c8",
+    "agentEmail": "nicu@regalvoice.com",
+    "title": "Incoming Call"
+  },
+  {
+    "subject": "Re: Group chat with CC",
+    "eventType": "email",
+    "createdAt": "1731518685",
+    "senderEmail": {
+      "name": "Nicu Ciocan",
+      "address": "nicu@regalvoice.com"
+    },
+    "threadId": "a9c975b228387d97",
+    "bodySnippet": "Second reply, after clicking the reply-all",
+    "contactPhone": "+19283707704",
+    "messageId": "b58d1f52fb9639e0",
+    "name": "Email Sent",
+    "ccEmails": [
+      {
+        "name": "",
+        "address": "mfox88487@gmail.com"
+      },
+      {
+        "name": "",
+        "address": "dscully88487@gmail.com"
+      }
+    ],
+    "toEmails": [
+      {
+        "name": "",
+        "address": "nicu.ciocan@clever-software-solutions.com"
+      }
+    ],
+    "rvInfo": "circle-bank-segment#event#email#Email Sent#1731518685#3a858fad97fb0c60df99474431018937",
+    "deliveredToEmails": [],
+    "bccEmails": []
+  },
+  {
+    "subject": "Re: Group chat with CC",
+    "eventType": "email",
+    "createdAt": "1731518670",
+    "senderEmail": {
+      "name": "Nicu Ciocan",
+      "address": "nicu@regalvoice.com"
+    },
+    "threadId": "a9c975b228387d97",
+    "bodySnippet": "First reply",
+    "contactPhone": "+19283707704",
+    "messageId": "f33de72cec4e6d73",
+    "name": "Email Sent",
+    "ccEmails": [
+      {
+        "name": "",
+        "address": "mfox88487@gmail.com"
+      },
+      {
+        "name": "",
+        "address": "dscully88487@gmail.com"
+      }
+    ],
+    "toEmails": [
+      {
+        "name": "",
+        "address": "nicu.ciocan@clever-software-solutions.com"
+      }
+    ],
+    "rvInfo": "circle-bank-segment#event#email#Email Sent#1731518670#defbb3bca44755b1ee8c85c6730fcb14",
+    "deliveredToEmails": [],
+    "bccEmails": []
+  },
+  {
+    "subject": "Group chat with CC",
+    "createdAt": "1731518635",
+    "senderEmail": {
+      "name": "Nicu Ciocan",
+      "address": "nicu.ciocan@clever-software-solutions.com"
+    },
+    "threadId": "a9c975b228387d97",
+    "bodySnippet": "First message.",
+    "contactPhone": "+19283707704",
+    "messageId": "a9c975b228387d97",
+    "name": "Email Received",
+    "eventType": "email",
+    "ccEmails": [
+      {
+        "name": "",
+        "address": "mfox88487@gmail.com"
+      },
+      {
+        "name": "",
+        "address": "dscully88487@gmail.com"
+      }
+    ],
+    "deliveredToEmails": [
+      {
+        "name": "",
+        "address": "nicu@regalvoice.com"
+      }
+    ],
+    "toEmails": [
+      {
+        "name": "Nicu Ciocan",
+        "address": "nicu@regalvoice.com"
+      }
+    ],
+    "rvInfo": "circle-bank-segment#event#email#Email Received#1731518635#d993a005baa846d2fc2983eca9ed8fea",
+    "bccEmails": []
+  },
+  {
+    "agentId": "client:nicu_40regalvoice_2Ecom",
+    "disposition": "Interested - Send Follow-up",
+    "taskSid": "WT320ebd8f7154b0097001fee5e120080b",
+    "createdAt": "1731518583",
+    "contactPhone": "+19283707704",
+    "status": "summarized",
+    "name": "Task Summary",
+    "agentFullname": "Nicu Ciocan",
+    "eventType": "task",
+    "notes": "",
+    "dispositionedBy": "agent",
+    "rvInfo": "circle-bank-segment#event#task#Task Summary#1731518583#dd12f67deb67cb475f56567663a04a72",
+    "agentEmail": "nicu@regalvoice.com",
+    "title": "Inbound Email"
+  },
+  {
+    "subject": "Regal Group Chat",
+    "eventType": "email",
+    "createdAt": "1731518474",
+    "senderEmail": {
+      "name": "Nicu Ciocan",
+      "address": "nicu.ciocan@clever-software-solutions.com"
+    },
+    "threadId": "d2d4a9ea47b054d8",
+    "bodySnippet": "Hi, this is the inbound email that will start the thread.",
+    "contactPhone": "+19283707704",
+    "messageId": "d2d4a9ea47b054d8",
+    "name": "Email Received",
+    "deliveredToEmails": [
+      {
+        "name": "",
+        "address": "nicu@regalvoice.com"
+      }
+    ],
+    "toEmails": [
+      {
+        "name": "Nicu Ciocan",
+        "address": "nicu@regalvoice.com"
+      }
+    ],
+    "rvInfo": "circle-bank-segment#event#email#Email Received#1731518474#3b830caf64337fcaf3a1a37f99537332",
+    "bccEmails": [],
+    "ccEmails": []
+  },
+  {
+    "agentId": "client:nicu_40regalvoice_2Ecom",
+    "disposition": "Move Forward",
+    "taskSid": "WT27e1273c0ab3a8c68e8460d2fa2523bd",
+    "createdAt": "1731518469",
+    "contactPhone": "+19283707704",
+    "status": "summarized",
+    "name": "Task Summary",
+    "agentFullname": "Nicu Ciocan",
+    "eventType": "task",
+    "notes": "",
+    "dispositionedBy": "agent",
+    "rvInfo": "circle-bank-segment#event#task#Task Summary#1731518469#f10ebb7cf4c3331f23c2c8cf580bc8ce",
+    "agentEmail": "nicu@regalvoice.com",
+    "title": "Outbound SMS"
+  },
+  {
+    "agentId": "client:nicu_40regalvoice_2Ecom",
+    "disposition": "Move Forward",
+    "taskSid": "WTd0c59e034a74300b6144be364738907c",
+    "createdAt": "1731518457",
+    "contactPhone": "+19283707704",
+    "status": "summarized",
+    "name": "Task Summary",
+    "agentFullname": "Nicu Ciocan",
+    "eventType": "task",
+    "notes": "",
+    "dispositionedBy": "agent",
+    "rvInfo": "circle-bank-segment#event#task#Task Summary#1731518457#17f1649a94c825a6744459940176f1c8",
+    "agentEmail": "nicu@regalvoice.com",
+    "title": "Inbound Email"
+  },
+  {
+    "agentId": "client:nicu_40regalvoice_2Ecom",
+    "disposition": "Interested - Send Follow-up",
+    "taskSid": "WTd74f45313784a8ce6a47af8305b74c16",
+    "createdAt": "1731518444",
+    "contactPhone": "+19283707704",
+    "status": "summarized",
+    "name": "Task Summary",
+    "agentFullname": "Nicu Ciocan",
+    "eventType": "task",
+    "notes": "",
+    "dispositionedBy": "agent",
+    "rvInfo": "circle-bank-segment#event#task#Task Summary#1731518444#9ed997b1f07163720a11c73e801843c3",
+    "agentEmail": "nicu@regalvoice.com",
+    "title": "Manual Outbound Email"
+  },
+  {
+    "subject": "Re: Group chat",
+    "eventType": "email",
+    "createdAt": "1731518277",
+    "senderEmail": {
+      "name": "Nicu Ciocan",
+      "address": "nicu@regalvoice.com"
+    },
+    "threadId": "dafc0a92b460f246",
+    "bodySnippet": "One more time, for the video",
+    "contactPhone": "+19283707704",
+    "messageId": "32987fa527e01b57",
+    "name": "Email Sent",
+    "ccEmails": [
+      {
+        "name": "",
+        "address": "mfox88487@gmail.com"
+      },
+      {
+        "name": "",
+        "address": "dscully88487@gmail.com"
+      }
+    ],
+    "toEmails": [
+      {
+        "name": "",
+        "address": "nicu.ciocan@clever-software-solutions.com"
+      }
+    ],
+    "rvInfo": "circle-bank-segment#event#email#Email Sent#1731518277#dd4f1985cfa7f4f8ccde8ec57994e03d",
+    "deliveredToEmails": [],
+    "bccEmails": []
+  },
+  {
+    "subject": "Re: Group chat",
+    "eventType": "email",
+    "createdAt": "1731518222",
+    "senderEmail": {
+      "name": "Nicu Ciocan",
+      "address": "nicu@regalvoice.com"
+    },
+    "threadId": "dafc0a92b460f246",
+    "bodySnippet": "replying to all",
+    "contactPhone": "+19283707704",
+    "messageId": "62592fdaaac831de",
+    "name": "Email Sent",
+    "ccEmails": [
+      {
+        "name": "",
+        "address": "mfox88487@gmail.com"
+      },
+      {
+        "name": "",
+        "address": "dscully88487@gmail.com"
+      }
+    ],
+    "toEmails": [
+      {
+        "name": "",
+        "address": "nicu.ciocan@clever-software-solutions.com"
+      }
+    ],
+    "rvInfo": "circle-bank-segment#event#email#Email Sent#1731518222#1f49c21ccd6014dcee109e3152456b80",
+    "deliveredToEmails": [],
+    "bccEmails": []
+  },
+  {
+    "subject": "Group chat",
+    "eventType": "email",
+    "createdAt": "1731518068",
+    "senderEmail": {
+      "name": "Nicu Ciocan",
+      "address": "nicu@regalvoice.com"
+    },
+    "threadId": "dafc0a92b460f246",
+    "bodySnippet": "Did it work?",
+    "contactPhone": "+19283707704",
+    "messageId": "dafc0a92b460f246",
+    "name": "Email Sent",
+    "ccEmails": [
+      {
+        "name": "",
+        "address": "mfox88487@gmail.com"
+      },
+      {
+        "name": "",
+        "address": "dscully88487@gmail.com"
+      }
+    ],
+    "toEmails": [
+      {
+        "name": "",
+        "address": "nicu.ciocan@clever-software-solutions.com"
+      }
+    ],
+    "rvInfo": "circle-bank-segment#event#email#Email Sent#1731518068#2f77c406a7fe222b5c7401bfd6f0c5e7",
+    "deliveredToEmails": [],
+    "bccEmails": []
+  },
+  {
+    "subject": "Re: MTV Top 40",
+    "eventType": "email",
+    "createdAt": "1731513203",
+    "senderEmail": {
+      "name": "Nicu Ciocan",
+      "address": "nicu@regalvoice.com"
+    },
+    "threadId": "29f446b3143b5a9b",
+    "bodySnippet": "Take That",
+    "contactPhone": "+19283707704",
+    "messageId": "b9eb89b8179abcaf",
+    "name": "Email Sent",
+    "toEmails": [
+      {
+        "name": "",
+        "address": "nicu.ciocan@clever-software-solutions.com"
+      }
+    ],
+    "rvInfo": "circle-bank-segment#event#email#Email Sent#1731513203#014354752b270e2747794ffa357ffb39",
+    "deliveredToEmails": [],
+    "bccEmails": [],
+    "ccEmails": []
+  },
+  {
+    "subject": "This is a bug",
+    "eventType": "email",
+    "createdAt": "1731511665",
+    "senderEmail": {
+      "name": "Nicu Ciocan",
+      "address": "nicu@regalvoice.com"
+    },
+    "threadId": "1a98ebf68f797a5b",
+    "bodySnippet": "Without the fix, the above email was sent",
+    "contactPhone": "+19283707704",
+    "messageId": "1a98ebf68f797a5b",
+    "name": "Email Sent",
+    "ccEmails": [
+      {
+        "name": "",
+        "address": "alex@example.com"
+      }
+    ],
+    "toEmails": [
+      {
+        "name": "",
+        "address": "nicu.ciocan@clever-software-solutions.com"
+      },
+      {
+        "name": "",
+        "address": "alex@example.com"
+      }
+    ],
+    "rvInfo": "circle-bank-segment#event#email#Email Sent#1731511665#bba53d23802111dc898df2770428c707",
+    "deliveredToEmails": [],
+    "bccEmails": []
+  },
+  {
+    "subject": "This is a bug",
+    "eventType": "email",
+    "createdAt": "1731511533",
+    "senderEmail": {
+      "name": "Nicu Ciocan",
+      "address": "nicu@regalvoice.com"
+    },
+    "threadId": "2ed17f23afb87aad",
+    "bodySnippet": "Alex should have received this",
+    "contactPhone": "+19283707704",
+    "messageId": "2ed17f23afb87aad",
+    "name": "Email Sent",
+    "toEmails": [
+      {
+        "name": "",
+        "address": "nicu.ciocan@clever-software-solutions.com"
+      }
+    ],
+    "rvInfo": "circle-bank-segment#event#email#Email Sent#1731511533#0b8c6e3b12bd677f2232e0f084a4c0b4",
+    "deliveredToEmails": [],
+    "bccEmails": [],
+    "ccEmails": []
+  },
+  {
+    "subject": "Re: MTV Top 40",
+    "eventType": "email",
+    "createdAt": "1731504478",
+    "senderEmail": {
+      "name": "Nicu Ciocan",
+      "address": "nicu@regalvoice.com"
+    },
+    "threadId": "29f446b3143b5a9b",
+    "bodySnippet": "a",
+    "contactPhone": "+19283707704",
+    "messageId": "410b488b4d64d0f7",
+    "name": "Email Sent",
+    "toEmails": [
+      {
+        "name": "",
+        "address": "nicu.ciocan@clever-software-solutions.com"
+      }
+    ],
+    "rvInfo": "circle-bank-segment#event#email#Email Sent#1731504478#fb4f58a111f300d8a11163527fc19d79",
+    "deliveredToEmails": [],
+    "bccEmails": [],
+    "ccEmails": []
+  },
+  {
+    "subject": "MTV Top 40",
+    "eventType": "email",
+    "createdAt": "1731499415",
+    "senderEmail": {
+      "name": "Nicu Ciocan",
+      "address": "nicu.ciocan@clever-software-solutions.com"
+    },
+    "threadId": "29f446b3143b5a9b",
+    "bodySnippet": "Charts",
+    "contactPhone": "+19283707704",
+    "messageId": "29f446b3143b5a9b",
+    "name": "Email Received",
+    "deliveredToEmails": [
+      {
+        "name": "",
+        "address": "nicu@regalvoice.com"
+      }
+    ],
+    "toEmails": [
+      {
+        "name": "Nicu Ciocan",
+        "address": "nicu@regalvoice.com"
+      }
+    ],
+    "rvInfo": "circle-bank-segment#event#email#Email Received#1731499415#4097e24068a89cb2c306497a94635b71",
+    "bccEmails": [],
+    "ccEmails": []
+  },
+  {
+    "agentFullname": "Nicu Ciocan",
+    "agentId": "client:nicu_40regalvoice_2Ecom",
+    "content": "test",
+    "eventType": "proxy_message_event",
+    "createdAt": "1731499235",
+    "contactPhone": "+19283707704",
+    "direction": "OUTBOUND",
+    "status": "sent",
+    "sessionSid": "CH90fc0879726d4290af53fa404ecf2208",
+    "smsMessageSid": "IMa5a01adcf306410db7d8a22f997232fe",
+    "regalVoicePhone": "+14062956306",
+    "rvInfo": "circle-bank-segment#event#proxy_message_event#Proxy Message#1731499235#74b27c4f0f805ad5c3c107adb8b2acca",
+    "success": true
+  },
+  {
+    "campaignName": "Contacted after hours",
+    "content": "Contacted after hours",
+    "eventType": "message_event",
+    "createdAt": "1731499229",
+    "contactPhone": "+19283707704",
+    "direction": "OUTBOUND",
+    "status": "queued",
+    "messageSid": "SM037774c59a0af7c20cf156be32a65c4d",
+    "campaignFriendlyId": "429",
+    "regalVoicePhone": "+19543888563",
+    "rvInfo": "circle-bank-segment#event#message_event#SMS#1731499229#cc861977330a0ac99da6e15aeae41b73",
+    "success": true
+  },
+  {
+    "eventType": "track",
+    "createdAt": "1731499220",
+    "name": "Contacted After Hours",
+    "contactPhone": "+19283707704",
+    "properties": {
+      "channel": "sms",
+      "regal_voice_phone": "+14062956306",
+      "regal_voice_phone_friendly_name": "Cobra Kai 2: This Time It's Personal"
+    },
+    "rvInfo": "circle-bank-segment#event#track#Contacted After Hours#1731499220#42c1c157ddc161dc466d9bf7aa5c0d3f",
+    "regalVoicePhone": "+14062956306",
+    "callSid": null,
+    "regalVoicePhoneFriendlyName": "Cobra Kai 2: This Time It's Personal"
+  },
+  {
+    "content": "hmm",
+    "eventType": "proxy_message_event",
+    "createdAt": "1731499220",
+    "contactPhone": "+19283707704",
+    "direction": "INBOUND",
+    "status": "sent",
+    "sessionSid": "CH90fc0879726d4290af53fa404ecf2208",
+    "smsMessageSid": "IMbbe23d75631449dd8b577319d5dbc60e",
+    "regalVoicePhone": "+14062956306",
+    "rvInfo": "circle-bank-segment#event#proxy_message_event#Proxy Message#1731499220#05ea2f71c6c67ed67e0ae32fa44003d8",
+    "success": true
+  },
+  {
+    "content": "let's cook",
+    "eventType": "proxy_message_event",
+    "createdAt": "1731499057",
+    "contactPhone": "+19283707704",
+    "direction": "INBOUND",
+    "status": "sent",
+    "sessionSid": "CH90fc0879726d4290af53fa404ecf2208",
+    "smsMessageSid": "IMdb3b0babfcf047e59a5c7eaa7c321f28",
+    "regalVoicePhone": "+14062956306",
+    "rvInfo": "circle-bank-segment#event#proxy_message_event#Proxy Message#1731499057#e17ca9f534f26d7622a6bda8062e13db",
+    "success": true
+  },
+  {
+    "eventType": "track",
+    "createdAt": "1731499056",
+    "name": "Contacted After Hours",
+    "contactPhone": "+19283707704",
+    "properties": {
+      "channel": "sms",
+      "regal_voice_phone": "+14062956306",
+      "regal_voice_phone_friendly_name": "Cobra Kai 2: This Time It's Personal"
+    },
+    "rvInfo": "circle-bank-segment#event#track#Contacted After Hours#1731499056#b0e318b45ce76e7ceb94cecbc8eddcdc",
+    "regalVoicePhone": "+14062956306",
+    "callSid": null,
+    "regalVoicePhoneFriendlyName": "Cobra Kai 2: This Time It's Personal"
+  },
+  {
+    "campaignName": "Contacted after hours",
+    "content": "Contacted after hours",
+    "eventType": "message_event",
+    "createdAt": "1731499054",
+    "contactPhone": "+19283707704",
+    "direction": "OUTBOUND",
+    "status": "queued",
+    "messageSid": "SM1c12734bea075bac4c7a81c2d2f290d5",
+    "campaignFriendlyId": "429",
+    "regalVoicePhone": "+19543888563",
+    "rvInfo": "circle-bank-segment#event#message_event#SMS#1731499054#eafa7139d069249f8238ef47a6df8572",
+    "success": true
+  },
+  {
+    "content": "Mister White",
+    "eventType": "proxy_message_event",
+    "createdAt": "1731499050",
+    "contactPhone": "+19283707704",
+    "direction": "INBOUND",
+    "status": "sent",
+    "sessionSid": "CH90fc0879726d4290af53fa404ecf2208",
+    "smsMessageSid": "IMf01cc4c820d9459f971d5cd948764ef5",
+    "regalVoicePhone": "+14062956306",
+    "rvInfo": "circle-bank-segment#event#proxy_message_event#Proxy Message#1731499050#3a0a8842279b1ab7920800a78d61ac52",
+    "success": true
+  },
+  {
+    "eventType": "track",
+    "createdAt": "1731499049",
+    "name": "Contacted After Hours",
+    "contactPhone": "+19283707704",
+    "properties": {
+      "channel": "sms",
+      "regal_voice_phone": "+14062956306",
+      "regal_voice_phone_friendly_name": "Cobra Kai 2: This Time It's Personal"
+    },
+    "rvInfo": "circle-bank-segment#event#track#Contacted After Hours#1731499049#2c43dd9a5d55ebd3f73eaac3568712e7",
+    "regalVoicePhone": "+14062956306",
+    "callSid": null,
+    "regalVoicePhoneFriendlyName": "Cobra Kai 2: This Time It's Personal"
+  },
+  {
+    "eventType": "track",
+    "createdAt": "1731499043",
+    "name": "Contacted After Hours",
+    "contactPhone": "+19283707704",
+    "properties": {
+      "channel": "sms",
+      "regal_voice_phone": "+14062956306",
+      "regal_voice_phone_friendly_name": "Cobra Kai 2: This Time It's Personal"
+    },
+    "rvInfo": "circle-bank-segment#event#track#Contacted After Hours#1731499043#0c3c9496c00299eccc2f4ed5a420672c",
+    "regalVoicePhone": "+14062956306",
+    "callSid": null,
+    "regalVoicePhoneFriendlyName": "Cobra Kai 2: This Time It's Personal"
+  },
+  {
+    "content": "yo yo",
+    "eventType": "proxy_message_event",
+    "createdAt": "1731499043",
+    "contactPhone": "+19283707704",
+    "direction": "INBOUND",
+    "status": "sent",
+    "sessionSid": "CH90fc0879726d4290af53fa404ecf2208",
+    "smsMessageSid": "IMd9ead723a0804857a16ecedd5fa7f373",
+    "regalVoicePhone": "+14062956306",
+    "rvInfo": "circle-bank-segment#event#proxy_message_event#Proxy Message#1731499043#2b4a69fb1d5c669fbe3afe117ac34003",
+    "success": true
+  },
+  {
+    "eventType": "track",
+    "createdAt": "1731331024",
+    "name": "Contacted After Hours",
+    "contactPhone": "+19283707704",
+    "properties": {
+      "channel": "sms",
+      "regal_voice_phone": "+14062956306",
+      "regal_voice_phone_friendly_name": "Cobra Kai 2: This Time It's Personal"
+    },
+    "rvInfo": "circle-bank-segment#event#track#Contacted After Hours#1731331024#bac6824138c4038ba7b98e7ed9884f81",
+    "regalVoicePhone": "+14062956306",
+    "callSid": null,
+    "regalVoicePhoneFriendlyName": "Cobra Kai 2: This Time It's Personal"
+  },
+  {
+    "content": "sms",
+    "eventType": "proxy_message_event",
+    "createdAt": "1731331024",
+    "contactPhone": "+19283707704",
+    "direction": "INBOUND",
+    "status": "sent",
+    "sessionSid": "CH90fc0879726d4290af53fa404ecf2208",
+    "smsMessageSid": "IM9ddd7c467a0a4c30b6f48134444efc52",
+    "regalVoicePhone": "+14062956306",
+    "rvInfo": "circle-bank-segment#event#proxy_message_event#Proxy Message#1731331024#1cb9ea3510e8721d8192439ee9e54801",
+    "success": true
+  },
+  {
+    "agentId": "client:nicu_40regalvoice_2Ecom",
+    "disposition": "Autocomplete",
+    "taskSid": "WTa844c01284f0ea3c7fd68bd1f1ca2a20",
+    "createdAt": "1731001052",
+    "contactPhone": "+19283707704",
+    "status": "summarized",
+    "name": "Task Summary",
+    "agentFullname": "Nicu Ciocan",
+    "eventType": "task",
+    "notes": "",
+    "dispositionedBy": "system",
+    "rvInfo": "circle-bank-segment#event#task#Task Summary#1731001052#32ca8d06b603a25240d4172830d3708c",
+    "agentEmail": "nicu@regalvoice.com",
+    "title": "Manual Outbound Call"
+  },
+  {
+    "agentId": "client:login_2Bcbs_40regalvoice_2Ecom",
+    "disposition": "Autocomplete",
+    "taskSid": "WT0afcf1909e1ae5135d9e8182ff39a25c",
+    "createdAt": "1731000449",
+    "contactPhone": "+19283707704",
+    "status": "summarized",
+    "name": "Task Summary",
+    "agentFullname": "Regal Voice Circle Bank Segment",
+    "eventType": "task",
+    "notes": "",
+    "dispositionedBy": "system",
+    "rvInfo": "circle-bank-segment#event#task#Task Summary#1731000449#0301b40905960e2b443f046b214cdb98",
+    "agentEmail": "login+cbs@regalvoice.com",
+    "title": "Manual Outbound Call"
+  },
+  {
+    "agentFullname": "Nicu Ciocan",
+    "agentId": "client:nicu_40regalvoice_2Ecom",
+    "content": "should work",
+    "eventType": "proxy_message_event",
+    "createdAt": "1730996885",
+    "contactPhone": "+19283707704",
+    "direction": "OUTBOUND",
+    "status": "sent",
+    "sessionSid": "CH7da67e3393894be29f9c50d22879ff08",
+    "smsMessageSid": "IM6da60849ced747a6b0539365fa5da07d",
+    "regalVoicePhone": "+14062956306",
+    "rvInfo": "circle-bank-segment#event#proxy_message_event#Proxy Message#1730996885#ddcaa3fc3005368f6a2b7fd3a9a5ed8c",
+    "success": true
+  },
+  {
+    "agentFullname": "Nicu Ciocan",
+    "agentId": "client:nicu_40regalvoice_2Ecom",
+    "content": "it works now!",
+    "eventType": "proxy_message_event",
+    "createdAt": "1730994217",
+    "contactPhone": "+19283707704",
+    "direction": "OUTBOUND",
+    "status": "sent",
+    "sessionSid": "CH2beddcd473b5442895b1a35e60595c82",
+    "smsMessageSid": "IMbfd04d190e79492bb9ddf7ba6422766d",
+    "regalVoicePhone": "+14062956306",
+    "rvInfo": "circle-bank-segment#event#proxy_message_event#Proxy Message#1730994217#b4d683103b67df2e0e77aafff482d48f",
+    "success": true
+  },
+  {
+    "content": "===============================",
+    "eventType": "proxy_message_event",
+    "createdAt": "1730994128",
+    "contactPhone": "+19283707704",
+    "direction": "INBOUND",
+    "status": "sent",
+    "sessionSid": "CHc58768573d26461d95682144911f06ef",
+    "smsMessageSid": "IM1fcfb463999a4d2583f55a94b8a1a930",
+    "regalVoicePhone": "+14062956306",
+    "rvInfo": "circle-bank-segment#event#proxy_message_event#Proxy Message#1730994128#5fcaff3d2ff952615b0adbea9a5a7a9e",
+    "success": true
+  },
+  {
+    "agentFullname": "Nicu Ciocan",
+    "agentId": "client:nicu_40regalvoice_2Ecom",
+    "content": "this won't go through",
+    "eventType": "proxy_message_event",
+    "createdAt": "1730994076",
+    "contactPhone": "+19283707704",
+    "direction": "OUTBOUND",
+    "status": "sent",
+    "sessionSid": "CH43b41188d4054cc69feb5561d6321f85",
+    "smsMessageSid": "IM062f799faaa04ffe91e038794a33ed90",
+    "regalVoicePhone": "+14062956306",
+    "rvInfo": "circle-bank-segment#event#proxy_message_event#Proxy Message#1730994076#8dd7ffe7a1e8d8521e97c4dc5aab81fd",
+    "success": true
+  },
+  {
+    "agentFullname": "Nicu Ciocan",
+    "agentId": "client:nicu_40regalvoice_2Ecom",
+    "content": "sms",
+    "eventType": "proxy_message_event",
+    "createdAt": "1730990642",
+    "contactPhone": "+19283707704",
+    "direction": "OUTBOUND",
+    "status": "sent",
+    "sessionSid": "CH43b41188d4054cc69feb5561d6321f85",
+    "smsMessageSid": "IM5a160039ed4a4d9aa1fce43de819986b",
+    "regalVoicePhone": "+14062956306",
+    "rvInfo": "circle-bank-segment#event#proxy_message_event#Proxy Message#1730990642#9a243453262d5436f33e5bff15470c17",
+    "success": true
+  },
+  {
+    "agentFullname": "Nicu Ciocan",
+    "agentId": "client:nicu_40regalvoice_2Ecom",
+    "content": "rx",
+    "eventType": "proxy_message_event",
+    "createdAt": "1730990388",
+    "contactPhone": "+19283707704",
+    "direction": "OUTBOUND",
+    "status": "sent",
+    "sessionSid": "CH43b41188d4054cc69feb5561d6321f85",
+    "smsMessageSid": "IM7fb355c55d9e49dc96882cfefd75c404",
+    "regalVoicePhone": "+14062956306",
+    "rvInfo": "circle-bank-segment#event#proxy_message_event#Proxy Message#1730990388#c317cab6d76df68f30b4c6f5096b84ee",
+    "success": true
+  },
+  {
+    "agentFullname": "Nicu Ciocan",
+    "agentId": "client:nicu_40regalvoice_2Ecom",
+    "content": "twitch.tv",
+    "eventType": "proxy_message_event",
+    "createdAt": "1730990043",
+    "contactPhone": "+19283707704",
+    "direction": "OUTBOUND",
+    "status": "sent",
+    "sessionSid": "CH43b41188d4054cc69feb5561d6321f85",
+    "smsMessageSid": "IMafc48c2f95ba440696367ed79ecf4992",
+    "regalVoicePhone": "+14062956306",
+    "rvInfo": "circle-bank-segment#event#proxy_message_event#Proxy Message#1730990043#ef9215d7d8fc97fec7307f7cac83ca8c",
+    "success": true
+  },
+  {
+    "agentFullname": "Nicu Ciocan",
+    "agentId": "client:nicu_40regalvoice_2Ecom",
+    "content": "sms response",
+    "eventType": "proxy_message_event",
+    "createdAt": "1730988943",
+    "contactPhone": "+19283707704",
+    "direction": "OUTBOUND",
+    "status": "sent",
+    "sessionSid": "CH43b41188d4054cc69feb5561d6321f85",
+    "smsMessageSid": "IMd2fbb85c78824c368a9366c391ad3ad0",
+    "regalVoicePhone": "+14062956306",
+    "rvInfo": "circle-bank-segment#event#proxy_message_event#Proxy Message#1730988943#039ba0f5c81bb51c1ab9224b861f313b",
+    "success": true
+  },
+  {
+    "subject": "Re: Juliana here",
+    "eventType": "email",
+    "createdAt": "1730988936",
+    "senderEmail": {
+      "name": "Nicu Ciocan",
+      "address": "nicu@regalvoice.com"
+    },
+    "threadId": "b4d044d9e8497e38",
+    "bodySnippet": "email response",
+    "contactPhone": "+19283707704",
+    "messageId": "cd09aaf04e7a816c",
+    "name": "Email Sent",
+    "toEmails": [
+      {
+        "name": "",
+        "address": "nicu.ciocan@clever-software-solutions.com"
+      }
+    ],
+    "rvInfo": "circle-bank-segment#event#email#Email Sent#1730988936#5bde12f926e33d5919506da4b26d25a9",
+    "deliveredToEmails": [],
+    "bccEmails": [],
+    "ccEmails": []
+  },
+  {
+    "subject": "Juliana here",
+    "eventType": "email",
+    "createdAt": "1730988557",
+    "senderEmail": {
+      "name": "Nicu Ciocan",
+      "address": "nicu.ciocan@clever-software-solutions.com"
+    },
+    "threadId": "b4d044d9e8497e38",
+    "bodySnippet": "All good?",
+    "contactPhone": "+19283707704",
+    "messageId": "b4d044d9e8497e38",
+    "name": "Email Received",
+    "deliveredToEmails": [
+      {
+        "name": "",
+        "address": "nicu@regalvoice.com"
+      }
+    ],
+    "toEmails": [
+      {
+        "name": "Nicu Ciocan",
+        "address": "nicu@regalvoice.com"
+      }
+    ],
+    "rvInfo": "circle-bank-segment#event#email#Email Received#1730988557#d9aa3dfaea9f58a47fadc9d48750f3fb",
+    "bccEmails": [],
+    "ccEmails": []
+  },
+  {
+    "agentFullname": "Nicu Ciocan",
+    "agentId": "client:nicu_40regalvoice_2Ecom",
+    "content": "new sms",
+    "eventType": "proxy_message_event",
+    "createdAt": "1730988454",
+    "contactPhone": "+19283707704",
+    "direction": "OUTBOUND",
+    "status": "sent",
+    "sessionSid": "CH43b41188d4054cc69feb5561d6321f85",
+    "smsMessageSid": "IMeb3e02cededd4457aa5ec298e790662c",
+    "regalVoicePhone": "+14062956306",
+    "rvInfo": "circle-bank-segment#event#proxy_message_event#Proxy Message#1730988454#463433be9d556ad53400778e652d4360",
+    "success": true
+  },
+  {
+    "agentFullname": "Nicu Ciocan",
+    "agentId": "client:nicu_40regalvoice_2Ecom",
+    "content": "works!",
+    "eventType": "proxy_message_event",
+    "createdAt": "1730988372",
+    "contactPhone": "+19283707704",
+    "direction": "OUTBOUND",
+    "status": "sent",
+    "sessionSid": "CHd59613d2a7ca4d81a9ef40dcdb223cb4",
+    "smsMessageSid": "IM3f326317c1114361a19410f8bd720336",
+    "regalVoicePhone": "+14062956306",
+    "rvInfo": "circle-bank-segment#event#proxy_message_event#Proxy Message#1730988372#ad6552e8a725f37a7da5f78705b19788",
+    "success": true
+  },
+  {
+    "content": "one",
+    "eventType": "proxy_message_event",
+    "createdAt": "1730988110",
+    "contactPhone": "+19283707704",
+    "direction": "INBOUND",
+    "status": "sent",
+    "sessionSid": "CHdba0b9b496844948a7248aff5c2fed2a",
+    "smsMessageSid": "IMd0bee5ba88054a32843c15d20379ec1d",
+    "regalVoicePhone": "+14062956306",
+    "rvInfo": "circle-bank-segment#event#proxy_message_event#Proxy Message#1730988110#8853732216bfe225da3948b8de70560e",
+    "success": true
+  },
+  {
+    "subject": "Mmm",
+    "eventType": "email",
+    "createdAt": "1730983002",
+    "senderEmail": {
+      "name": "Nicu Ciocan",
+      "address": "nicu.ciocan@clever-software-solutions.com"
+    },
+    "threadId": "86ef1373f277d578",
+    "bodySnippet": "Mmm",
+    "contactPhone": "+19283707704",
+    "messageId": "86ef1373f277d578",
+    "name": "Email Received",
+    "deliveredToEmails": [
+      {
+        "name": "",
+        "address": "nicu@regalvoice.com"
+      }
+    ],
+    "toEmails": [
+      {
+        "name": "Nicu Ciocan",
+        "address": "nicu@regalvoice.com"
+      }
+    ],
+    "rvInfo": "circle-bank-segment#event#email#Email Received#1730983002#95b5ddff818c570179f277d64a122c79",
+    "bccEmails": [],
+    "ccEmails": []
+  },
+  {
+    "eventType": "track",
+    "createdAt": "1730982821",
+    "name": "Contacted After Hours",
+    "contactPhone": "+19283707704",
+    "properties": {
+      "channel": "sms",
+      "regal_voice_phone": "+14062956306",
+      "regal_voice_phone_friendly_name": "Cobra Kai 2: This Time It's Personal"
+    },
+    "rvInfo": "circle-bank-segment#event#track#Contacted After Hours#1730982821#869db8d7f9f439fbe6691d785f642dd9",
+    "regalVoicePhone": "+14062956306",
+    "callSid": null,
+    "regalVoicePhoneFriendlyName": "Cobra Kai 2: This Time It's Personal"
+  },
+  {
+    "eventType": "track",
+    "createdAt": "1730982784",
+    "name": "Contacted After Hours",
+    "contactPhone": "+19283707704",
+    "properties": {
+      "channel": "sms",
+      "regal_voice_phone": "+14062956306",
+      "regal_voice_phone_friendly_name": "Cobra Kai 2: This Time It's Personal"
+    },
+    "rvInfo": "circle-bank-segment#event#track#Contacted After Hours#1730982784#c3179534c4060916bf298bead7bfca4e",
+    "regalVoicePhone": "+14062956306",
+    "callSid": null,
+    "regalVoicePhoneFriendlyName": "Cobra Kai 2: This Time It's Personal"
+  },
+  {
+    "eventType": "track",
+    "createdAt": "1730965885",
+    "name": "Contacted After Hours",
+    "contactPhone": "+19283707704",
+    "properties": {
+      "channel": "sms",
+      "regal_voice_phone": "+14062956306",
+      "regal_voice_phone_friendly_name": "Cobra Kai 2: This Time It's Personal"
+    },
+    "rvInfo": "circle-bank-segment#event#track#Contacted After Hours#1730965885#3f7dfcd9ffa6cc018c5040007e66da3c",
+    "regalVoicePhone": "+14062956306",
+    "callSid": null,
+    "regalVoicePhoneFriendlyName": "Cobra Kai 2: This Time It's Personal"
+  },
+  {
+    "eventType": "task",
+    "createdAt": "1730964955",
+    "contactPhone": "+19283707704",
+    "status": "canceled",
+    "name": "Task Canceled",
+    "rvInfo": "circle-bank-segment#event#task#Task Canceled#1730964955#43fca89227af036a4e7bd5ee4009f297",
+    "title": "Incoming Call",
+    "direction": "inbound",
+    "callSid": "CA75b1163deb88ef15d38208aecc25623d",
+    "regalVoicePhone": "+14062956306",
+    "regalVoicePhoneFriendlyName": "Cobra Kai 2: This Time It's Personal"
+  },
+  {
+    "eventType": "task",
+    "createdAt": "1730964811",
+    "contactPhone": "+19283707704",
+    "status": "canceled",
+    "name": "Task Canceled",
+    "rvInfo": "circle-bank-segment#event#task#Task Canceled#1730964811#8f190f1de4c76e8232f1080803728f2b",
+    "title": "Incoming Call",
+    "direction": "inbound",
+    "callSid": "CAe3439e724750ce3977544e4d65332b2e",
+    "regalVoicePhone": "+14062956306",
+    "regalVoicePhoneFriendlyName": "Cobra Kai 2: This Time It's Personal"
+  },
+  {
+    "eventType": "task",
+    "createdAt": "1730964732",
+    "contactPhone": "+19283707704",
+    "status": "canceled",
+    "name": "Task Canceled",
+    "rvInfo": "circle-bank-segment#event#task#Task Canceled#1730964732#dfb69da5db99c9447d7ee0e3bca8aada",
+    "title": "Incoming Call",
+    "direction": "inbound",
+    "callSid": "CAf15a9ba17b14662f634760e683dceb7f",
+    "regalVoicePhone": "+14062956306",
+    "regalVoicePhoneFriendlyName": "Cobra Kai 2: This Time It's Personal"
+  },
+  {
+    "eventType": "track",
+    "createdAt": "1730964504",
+    "name": "Contacted After Hours",
+    "contactPhone": "+19283707704",
+    "properties": {
+      "channel": "sms",
+      "regal_voice_phone": "+14062956306",
+      "regal_voice_phone_friendly_name": "Cobra Kai 2: This Time It's Personal"
+    },
+    "rvInfo": "circle-bank-segment#event#track#Contacted After Hours#1730964504#4cc04281ada5255abd5766098868583c",
+    "regalVoicePhone": "+14062956306",
+    "callSid": null,
+    "regalVoicePhoneFriendlyName": "Cobra Kai 2: This Time It's Personal"
+  },
+  {
+    "eventType": "track",
+    "createdAt": "1730964430",
+    "name": "Contacted After Hours",
+    "contactPhone": "+19283707704",
+    "properties": {
+      "channel": "sms",
+      "regal_voice_phone": "+14062956306",
+      "regal_voice_phone_friendly_name": "Cobra Kai 2: This Time It's Personal"
+    },
+    "rvInfo": "circle-bank-segment#event#track#Contacted After Hours#1730964430#3b3b4902ccc5dc4e5d6a3d58bc9239df",
+    "regalVoicePhone": "+14062956306",
+    "callSid": null,
+    "regalVoicePhoneFriendlyName": "Cobra Kai 2: This Time It's Personal"
+  },
+  {
+    "subject": "email",
+    "eventType": "email",
+    "createdAt": "1730821133",
+    "senderEmail": {
+      "name": "Nicu Ciocan",
+      "address": "nicu@regalvoice.com"
+    },
+    "threadId": "0dba521282790106",
+    "bodySnippet": "email",
+    "contactPhone": "+19283707704",
+    "messageId": "0dba521282790106",
+    "name": "Email Sent",
+    "toEmails": [
+      {
+        "name": "",
+        "address": "nicu.ciocan@clever-software-solutions.com"
+      }
+    ],
+    "rvInfo": "circle-bank-segment#event#email#Email Sent#1730821133#c7e88519735e58b26b1a0ff987bba3e2",
+    "deliveredToEmails": [],
+    "bccEmails": [],
+    "ccEmails": []
+  },
+  {
+    "eventType": "task",
+    "createdAt": "1730738640",
+    "contactPhone": "+19283707704",
+    "status": "canceled",
+    "name": "Task Canceled",
+    "rvInfo": "circle-bank-segment#event#task#Task Canceled#1730738640#d5332b84074c30512c4a52142f8ae3e3",
+    "title": "Inbound Email",
+    "direction": "inbound",
+    "regalVoicePhone": "+14062956306",
+    "regalVoicePhoneFriendlyName": "Cobra Kai 2: This Time It's Personal"
+  },
+  {
+    "eventType": "track",
+    "createdAt": "1730713092",
+    "name": "Contacted After Hours",
+    "contactPhone": "+19283707704",
+    "properties": {
+      "channel": "sms",
+      "regal_voice_phone": "+14062956306",
+      "regal_voice_phone_friendly_name": "Cobra Kai 2: This Time It's Personal"
+    },
+    "rvInfo": "circle-bank-segment#event#track#Contacted After Hours#1730713092#425330915d5cc78a60030ea4fadb8b2e",
+    "regalVoicePhone": "+14062956306",
+    "callSid": null,
+    "regalVoicePhoneFriendlyName": "Cobra Kai 2: This Time It's Personal"
+  },
+  {
+    "subject": "latest",
+    "eventType": "email",
+    "createdAt": "1730713075",
+    "senderEmail": {
+      "name": "Nicu Ciocan",
+      "address": "nicu.ciocan@clever-software-solutions.com"
+    },
+    "threadId": "1a77cf2af1fc2543",
+    "bodySnippet": "email",
+    "contactPhone": "+19283707704",
+    "messageId": "1a77cf2af1fc2543",
+    "name": "Email Received",
+    "deliveredToEmails": [
+      {
+        "name": "",
+        "address": "nicu@regalvoice.com"
+      }
+    ],
+    "toEmails": [
+      {
+        "name": "Nicu Ciocan",
+        "address": "nicu@regalvoice.com"
+      }
+    ],
+    "rvInfo": "circle-bank-segment#event#email#Email Received#1730713075#03e354528436357319fd79884db37fc6",
+    "bccEmails": [],
+    "ccEmails": []
+  },
+  {
+    "eventType": "task",
+    "createdAt": "1730713032",
+    "contactPhone": "+19283707704",
+    "status": "canceled",
+    "name": "Task Canceled",
+    "rvInfo": "circle-bank-segment#event#task#Task Canceled#1730713032#c14006c9ad507950a2c9f797ca1bae33",
+    "title": "Inbound Email",
+    "direction": "inbound",
+    "regalVoicePhone": "+14062956306",
+    "regalVoicePhoneFriendlyName": "Cobra Kai 2: This Time It's Personal"
+  },
+  {
+    "subject": "Nicu here",
+    "eventType": "email",
+    "createdAt": "1730713008",
+    "senderEmail": {
+      "name": "Nicu Ciocan",
+      "address": "nicu.ciocan@clever-software-solutions.com"
+    },
+    "threadId": "01ca169d9a164a92",
+    "bodySnippet": "Hello",
+    "contactPhone": "+19283707704",
+    "messageId": "01ca169d9a164a92",
+    "name": "Email Received",
+    "deliveredToEmails": [
+      {
+        "name": "",
+        "address": "nicu@regalvoice.com"
+      }
+    ],
+    "toEmails": [
+      {
+        "name": "Nicu Ciocan",
+        "address": "nicu@regalvoice.com"
+      }
+    ],
+    "rvInfo": "circle-bank-segment#event#email#Email Received#1730713008#b883c697fbfc55d7e0e1d46942284294",
+    "bccEmails": [],
+    "ccEmails": []
+  },
+  {
+    "eventType": "task",
+    "createdAt": "1730381445",
+    "contactPhone": "+19283707704",
+    "status": "canceled",
+    "name": "Task Canceled",
+    "rvInfo": "circle-bank-segment#event#task#Task Canceled#1730381445#432b8259bb2874f07150d77c9ad51eac",
+    "title": "Incoming Call",
+    "direction": "inbound",
+    "callSid": "CA0e42f8a3a69ec60f3ca604ea2c671013",
+    "regalVoicePhone": "+14062956306",
+    "regalVoicePhoneFriendlyName": "Cobra Kai 2: This Time It's Personal"
+  },
+  {
+    "eventType": "task",
+    "createdAt": "1730381404",
+    "contactPhone": "+19283707704",
+    "status": "canceled",
+    "name": "Task Canceled",
+    "rvInfo": "circle-bank-segment#event#task#Task Canceled#1730381404#9a7948aed9bfe543f9b8e13890d43367",
+    "title": "Incoming Call",
+    "direction": "inbound",
+    "callSid": "CAbd01d560fb753603244a5d6d30cb2b11",
+    "regalVoicePhone": "+14062956306",
+    "regalVoicePhoneFriendlyName": "Cobra Kai 2: This Time It's Personal"
+  },
+  {
+    "eventType": "task",
+    "createdAt": "1730381359",
+    "contactPhone": "+19283707704",
+    "status": "canceled",
+    "name": "Task Canceled",
+    "rvInfo": "circle-bank-segment#event#task#Task Canceled#1730381359#81015a1d17695d54a3f759834a19c02a",
+    "title": "Incoming Call",
+    "direction": "inbound",
+    "callSid": "CA4b5f06c793ee3c2c34d05af82b6fd3cd",
+    "regalVoicePhone": "+14062956306",
+    "regalVoicePhoneFriendlyName": "Cobra Kai 2: This Time It's Personal"
+  },
+  {
+    "eventType": "track",
+    "createdAt": "1730358516",
+    "name": "Contacted After Hours",
+    "contactPhone": "+19283707704",
+    "properties": {
+      "channel": "sms",
+      "regal_voice_phone": "+14062956306",
+      "regal_voice_phone_friendly_name": "Cobra Kai 2: This Time It's Personal"
+    },
+    "rvInfo": "circle-bank-segment#event#track#Contacted After Hours#1730358516#d55f6e919195ba3f68e9b3612bd8da57",
+    "regalVoicePhone": "+14062956306",
+    "callSid": null,
+    "regalVoicePhoneFriendlyName": "Cobra Kai 2: This Time It's Personal"
+  },
+  {
+    "eventType": "track",
+    "createdAt": "1730358466",
+    "name": "Contacted After Hours",
+    "contactPhone": "+19283707704",
+    "properties": {
+      "channel": "sms",
+      "regal_voice_phone": "+14062956306",
+      "regal_voice_phone_friendly_name": "Cobra Kai 2: This Time It's Personal"
+    },
+    "rvInfo": "circle-bank-segment#event#track#Contacted After Hours#1730358466#a6e35b10519eb118d38b103e32373874",
+    "regalVoicePhone": "+14062956306",
+    "callSid": null,
+    "regalVoicePhoneFriendlyName": "Cobra Kai 2: This Time It's Personal"
+  },
+  {
+    "subject": "a",
+    "eventType": "email",
+    "createdAt": "1730358338",
+    "senderEmail": {
+      "name": "Nicu Ciocan",
+      "address": "nicu.ciocan@clever-software-solutions.com"
+    },
+    "threadId": "b2aab6c3f05b90d2",
+    "bodySnippet": "a",
+    "contactPhone": "+19283707704",
+    "messageId": "b2aab6c3f05b90d2",
+    "name": "Email Received",
+    "deliveredToEmails": [
+      {
+        "name": "",
+        "address": "nicu@regalvoice.com"
+      }
+    ],
+    "toEmails": [
+      {
+        "name": "Nicu Ciocan",
+        "address": "nicu@regalvoice.com"
+      }
+    ],
+    "rvInfo": "circle-bank-segment#event#email#Email Received#1730358338#8902260c57c43f3b71762cacba0d4cb8",
+    "bccEmails": [],
+    "ccEmails": []
+  },
+  {
+    "subject": "hey",
+    "eventType": "email",
+    "createdAt": "1730357913",
+    "senderEmail": {
+      "name": "Nicu Ciocan",
+      "address": "nicu.ciocan@clever-software-solutions.com"
+    },
+    "threadId": "8426bba7f8ce6383",
+    "bodySnippet": "hey",
+    "contactPhone": "+19283707704",
+    "messageId": "8426bba7f8ce6383",
+    "name": "Email Received",
+    "deliveredToEmails": [
+      {
+        "name": "",
+        "address": "nicu@regalvoice.com"
+      }
+    ],
+    "toEmails": [
+      {
+        "name": "Nicu Ciocan",
+        "address": "nicu@regalvoice.com"
+      }
+    ],
+    "rvInfo": "circle-bank-segment#event#email#Email Received#1730357913#30c6945e0eac898f2cbde421389daa01",
+    "bccEmails": [],
+    "ccEmails": []
+  },
+  {
+    "eventType": "track",
+    "createdAt": "1730357895",
+    "name": "Contacted After Hours",
+    "contactPhone": "+19283707704",
+    "properties": {
+      "channel": "sms",
+      "regal_voice_phone": "+14062956306",
+      "regal_voice_phone_friendly_name": "Cobra Kai 2: This Time It's Personal"
+    },
+    "rvInfo": "circle-bank-segment#event#track#Contacted After Hours#1730357895#626094c8b8eec94aca3824fbee1bd216",
+    "regalVoicePhone": "+14062956306",
+    "callSid": null,
+    "regalVoicePhoneFriendlyName": "Cobra Kai 2: This Time It's Personal"
+  },
+  {
+    "eventType": "track",
+    "createdAt": "1730357877",
+    "name": "Contacted After Hours",
+    "contactPhone": "+19283707704",
+    "properties": {
+      "channel": "sms",
+      "regal_voice_phone": "+14062956306",
+      "regal_voice_phone_friendly_name": "Cobra Kai 2: This Time It's Personal"
+    },
+    "rvInfo": "circle-bank-segment#event#track#Contacted After Hours#1730357877#e54642af5ef58206d9a76a21da35978a",
+    "regalVoicePhone": "+14062956306",
+    "callSid": null,
+    "regalVoicePhoneFriendlyName": "Cobra Kai 2: This Time It's Personal"
+  },
+  {
+    "eventType": "regal_voice_event",
+    "createdAt": "1730357359",
+    "name": "call.transcript.available",
+    "contactPhone": "+19283707704",
+    "rvInfo": "circle-bank-segment#event#regal_voice_event#call.transcript.available#1730357359#aa5e291a4ece00dfa5cc6d18655435c8",
+    "taskSid": "WT90e36ef54ffecf1ccf958bd71505aacc",
+    "callSummary": null,
+    "sentiments": null
+  },
+  {
+    "eventType": "task",
+    "createdAt": "1730357342",
+    "contactPhone": "+19283707704",
+    "status": "canceled",
+    "name": "Task Canceled",
+    "rvInfo": "circle-bank-segment#event#task#Task Canceled#1730357342#d5194ef45739c363ee5e460eb230e852",
+    "title": "Transfer Call",
+    "direction": "inbound",
+    "regalVoicePhone": "+14062956306",
+    "regalVoicePhoneFriendlyName": "Cobra Kai 2: This Time It's Personal"
+  },
+  {
+    "eventType": "task",
+    "createdAt": "1730357342",
+    "contactPhone": "+19283707704",
+    "status": "canceled",
+    "name": "Task Canceled",
+    "rvInfo": "circle-bank-segment#event#task#Task Canceled#1730357342#8c144f48b8a08918fb54cb7d2040cc2f",
+    "title": "Transfer Call",
+    "direction": "inbound",
+    "regalVoicePhone": "+14062956306",
+    "regalVoicePhoneFriendlyName": "Cobra Kai 2: This Time It's Personal"
+  },
+  {
+    "subject": "hey",
+    "eventType": "email",
+    "createdAt": "1730357196",
+    "senderEmail": {
+      "name": "Nicu Ciocan",
+      "address": "nicu.ciocan@clever-software-solutions.com"
+    },
+    "threadId": "2d7fd4469b83f4ef",
+    "bodySnippet": "there",
+    "contactPhone": "+19283707704",
+    "messageId": "2d7fd4469b83f4ef",
+    "name": "Email Received",
+    "deliveredToEmails": [
+      {
+        "name": "",
+        "address": "nicu@regalvoice.com"
+      }
+    ],
+    "toEmails": [
+      {
+        "name": "Nicu Ciocan",
+        "address": "nicu@regalvoice.com"
+      }
+    ],
+    "rvInfo": "circle-bank-segment#event#email#Email Received#1730357196#a9d9b9eaf521a8d9c1ce8571cb89c7cf",
+    "bccEmails": [],
+    "ccEmails": []
+  },
+  {
+    "eventType": "task",
+    "createdAt": "1730311377",
+    "contactPhone": "+19283707704",
+    "status": "canceled",
+    "name": "Task Canceled",
+    "rvInfo": "circle-bank-segment#event#task#Task Canceled#1730311377#7f83e24a88c5700b99d01478afe722c4",
+    "title": "Inbound Email",
+    "direction": "inbound",
+    "regalVoicePhone": "+14062956306",
+    "regalVoicePhoneFriendlyName": "Cobra Kai 2: This Time It's Personal"
+  },
+  {
+    "eventType": "task",
+    "createdAt": "1730311375",
+    "contactPhone": "+19283707704",
+    "status": "canceled",
+    "name": "Task Canceled",
+    "rvInfo": "circle-bank-segment#event#task#Task Canceled#1730311375#da6b6c3b81b9843489868d178d565551",
+    "title": "Inbound Email",
+    "direction": "inbound",
+    "regalVoicePhone": "+14062956306",
+    "regalVoicePhoneFriendlyName": "Cobra Kai 2: This Time It's Personal"
+  },
+  {
+    "eventType": "task",
+    "createdAt": "1730311318",
+    "contactPhone": "+19283707704",
+    "status": "canceled",
+    "name": "Task Canceled",
+    "rvInfo": "circle-bank-segment#event#task#Task Canceled#1730311318#feddcbdc57470ae0c7f65151998c81d5",
+    "title": "Transfer Call",
+    "direction": "inbound",
+    "regalVoicePhone": "+14062956306",
+    "regalVoicePhoneFriendlyName": "Cobra Kai 2: This Time It's Personal"
+  },
+  {
+    "subject": "Test",
+    "eventType": "email",
+    "createdAt": "1730308468",
+    "senderEmail": {
+      "name": "Nicu Ciocan",
+      "address": "nicu.ciocan@clever-software-solutions.com"
+    },
+    "threadId": "4c2298d486b21bd3",
+    "bodySnippet": "Test",
+    "contactPhone": "+19283707704",
+    "messageId": "4c2298d486b21bd3",
+    "name": "Email Received",
+    "deliveredToEmails": [
+      {
+        "name": "",
+        "address": "nicu@regalvoice.com"
+      }
+    ],
+    "toEmails": [
+      {
+        "name": "Nicu Ciocan",
+        "address": "nicu@regalvoice.com"
+      }
+    ],
+    "rvInfo": "circle-bank-segment#event#email#Email Received#1730308468#fd1bba234f2d8a5853fdc6ea4efea3d7",
+    "bccEmails": [],
+    "ccEmails": []
+  },
+  {
+    "subject": "Jbdk",
+    "eventType": "email",
+    "createdAt": "1730308324",
+    "senderEmail": {
+      "name": "Nicu Ciocan",
+      "address": "nicu.ciocan@clever-software-solutions.com"
+    },
+    "threadId": "2d37ab09be5a8fc1",
+    "bodySnippet": "Dadas",
+    "contactPhone": "+19283707704",
+    "messageId": "2d37ab09be5a8fc1",
+    "name": "Email Received",
+    "deliveredToEmails": [
+      {
+        "name": "",
+        "address": "nicu@regalvoice.com"
+      }
+    ],
+    "toEmails": [
+      {
+        "name": "Nicu Ciocan",
+        "address": "nicu@regalvoice.com"
+      }
+    ],
+    "rvInfo": "circle-bank-segment#event#email#Email Received#1730308324#f7a5c1f29181171a03c81ab5d6acc827",
+    "bccEmails": [],
+    "ccEmails": []
+  },
+  {
+    "eventType": "task",
+    "createdAt": "1730291061",
+    "contactPhone": "+19283707704",
+    "status": "canceled",
+    "name": "Task Canceled",
+    "rvInfo": "circle-bank-segment#event#task#Task Canceled#1730291061#d566d6ac699af91a73963372e970939a",
+    "title": "Incoming Call",
+    "direction": "inbound",
+    "callSid": "CA63d90712436bc843e431eff5f3ba555d",
+    "regalVoicePhone": "+14062956306",
+    "regalVoicePhoneFriendlyName": "Cobra Kai 2: This Time It's Personal"
+  },
+  {
+    "eventType": "task",
+    "createdAt": "1730289770",
+    "contactPhone": "+19283707704",
+    "status": "canceled",
+    "name": "Task Canceled",
+    "rvInfo": "circle-bank-segment#event#task#Task Canceled#1730289770#efdec40b434532872b3ae8e29756de8a",
+    "title": "Incoming Call",
+    "direction": "inbound",
+    "callSid": "CA1dddf1bf51426d1884fa13aa3db42c13",
+    "regalVoicePhone": "+14062956306",
+    "regalVoicePhoneFriendlyName": "Cobra Kai 2: This Time It's Personal"
+  },
+  {
+    "eventType": "regal_voice_event",
+    "createdAt": "1730221058",
+    "name": "call.transcript.available",
+    "contactPhone": "+19283707704",
+    "rvInfo": "circle-bank-segment#event#regal_voice_event#call.transcript.available#1730221058#853fa0f27ea8d0445d05481a600f9030",
+    "taskSid": "WTa0f03ac10e29603df5309fbac46464f2",
+    "callSummary": null,
+    "sentiments": null
+  },
+  {
+    "eventType": "regal_voice_event",
+    "createdAt": "1730220781",
+    "name": "call.transcript.available",
+    "contactPhone": "+19283707704",
+    "rvInfo": "circle-bank-segment#event#regal_voice_event#call.transcript.available#1730220781#4ceee5c8ef7ae99ece4bea74e01f6dde",
+    "taskSid": "WT828e092d9906b22d717e7af5bdf7c1f2",
+    "callSummary": null,
+    "sentiments": null
+  },
+  {
+    "subject": "works?",
+    "eventType": "email",
+    "createdAt": "1730217438",
+    "senderEmail": {
+      "name": "Nicu Ciocan",
+      "address": "nicu@regalvoice.com"
+    },
+    "threadId": "4068035c9d714ee1",
+    "bodySnippet": "maybeeeeee",
+    "contactPhone": "+19283707704",
+    "messageId": "4068035c9d714ee1",
+    "name": "Email Sent",
+    "toEmails": [
+      {
+        "name": "",
+        "address": "nicu.ciocan@clever-software-solutions.com"
+      }
+    ],
+    "rvInfo": "circle-bank-segment#event#email#Email Sent#1730217438#51e2546f7102be7d176abe2ea407b797",
+    "deliveredToEmails": [],
+    "bccEmails": [],
+    "ccEmails": []
+  },
+  {
+    "subject": "Test",
+    "eventType": "email",
+    "createdAt": "1730217158",
+    "senderEmail": {
+      "name": "Nicu Ciocan",
+      "address": "nicu.ciocan@clever-software-solutions.com"
+    },
+    "threadId": "b923f7c60722b6e5",
+    "bodySnippet": "It works",
+    "contactPhone": "+19283707704",
+    "messageId": "b923f7c60722b6e5",
+    "name": "Email Received",
+    "deliveredToEmails": [
+      {
+        "name": "",
+        "address": "nicu@regalvoice.com"
+      }
+    ],
+    "toEmails": [
+      {
+        "name": "Nicu Ciocan",
+        "address": "nicu@regalvoice.com"
+      }
+    ],
+    "rvInfo": "circle-bank-segment#event#email#Email Received#1730217158#e7ebb45edb22040b8e5ba716a759eeec",
+    "bccEmails": [],
+    "ccEmails": []
+  },
+  {
+    "eventType": "track",
+    "createdAt": "1730112661",
+    "name": "Contacted After Hours",
+    "contactPhone": "+19283707704",
+    "properties": {
+      "channel": "sms",
+      "regal_voice_phone": "+14062956306",
+      "regal_voice_phone_friendly_name": "Cobra Kai 2: This Time It's Personal"
+    },
+    "rvInfo": "circle-bank-segment#event#track#Contacted After Hours#1730112661#7e2ebb1923a3669afdf32108250f5792",
+    "regalVoicePhone": "+14062956306",
+    "callSid": null,
+    "regalVoicePhoneFriendlyName": "Cobra Kai 2: This Time It's Personal"
+  },
+  {
+    "eventType": "track",
+    "createdAt": "1730112539",
+    "name": "Contacted After Hours",
+    "contactPhone": "+19283707704",
+    "properties": {
+      "channel": "sms",
+      "regal_voice_phone": "+14062956306",
+      "regal_voice_phone_friendly_name": "Cobra Kai 2: This Time It's Personal"
+    },
+    "rvInfo": "circle-bank-segment#event#track#Contacted After Hours#1730112539#18fc6c902c6567d2a1261e7088651f78",
+    "regalVoicePhone": "+14062956306",
+    "callSid": null,
+    "regalVoicePhoneFriendlyName": "Cobra Kai 2: This Time It's Personal"
+  },
+  {
+    "subject": "Reassign Test",
+    "eventType": "email",
+    "createdAt": "1729876283",
+    "senderEmail": {
+      "name": "Nicu Ciocan",
+      "address": "nicu.ciocan@clever-software-solutions.com"
+    },
+    "threadId": "f36b90f5aebd8681",
+    "bodySnippet": "This will go to Circle Bank Segment, even though it's meant for Nicu.",
+    "contactPhone": "+19283707704",
+    "messageId": "f36b90f5aebd8681",
+    "name": "Email Received",
+    "deliveredToEmails": [
+      {
+        "name": "",
+        "address": "nicu@regalvoice.com"
+      }
+    ],
+    "toEmails": [
+      {
+        "name": "Nicu Ciocan",
+        "address": "nicu@regalvoice.com"
+      }
+    ],
+    "rvInfo": "circle-bank-segment#event#email#Email Received#1729876283#d2a89d8b22cfd96b0daf0056aba6de38",
+    "bccEmails": [],
+    "ccEmails": []
+  },
+  {
+    "subject": "Reassign test",
+    "eventType": "email",
+    "createdAt": "1729876034",
+    "senderEmail": {
+      "name": "Nicu Ciocan",
+      "address": "nicu.ciocan@clever-software-solutions.com"
+    },
+    "threadId": "7a8586cc32f1126d",
+    "bodySnippet": "Only a test",
+    "contactPhone": "+19283707704",
+    "messageId": "7a8586cc32f1126d",
+    "name": "Email Received",
+    "deliveredToEmails": [
+      {
+        "name": "",
+        "address": "nicu@regal.io"
+      }
+    ],
+    "toEmails": [
+      {
+        "name": "Nicu Ciocan",
+        "address": "nicu@regal.io"
+      }
+    ],
+    "rvInfo": "circle-bank-segment#event#email#Email Received#1729876034#559fac2d7916f27ebd8fcb92b27710f5",
+    "bccEmails": [],
+    "ccEmails": []
+  },
+  {
+    "subject": " Thank You for Chatting",
+    "eventType": "email",
+    "createdAt": "1729710818",
+    "senderEmail": {
+      "name": "Yael Goldstein",
+      "address": "yael@regalvoice.com"
+    },
+    "threadId": "7b3985aeed0ca8f2",
+    "bodySnippet": "Hi Leila and Tom, I just wanted to take a moment to say thanks for talking with me about insurance! I really appreciated your insights and the time you took to share them. It was helpful to hear your",
+    "contactPhone": "+19283707704",
+    "messageId": "7b3985aeed0ca8f2",
+    "name": "Email Sent",
+    "ccEmails": [
+      {
+        "name": "",
+        "address": "yael@gold.ly"
+      }
+    ],
+    "toEmails": [
+      {
+        "name": "",
+        "address": "leilascott@gmail.com"
+      },
+      {
+        "name": "",
+        "address": "tomcruisegotmail@gmail.com"
+      }
+    ],
+    "rvInfo": "circle-bank-segment#event#email#Email Sent#1729710818#e498c07dd76d86aae92dce34424d18d3",
+    "deliveredToEmails": [],
+    "bccEmails": []
+  },
+  {
+    "subject": "a",
+    "eventType": "email",
+    "createdAt": "1728999073",
+    "senderEmail": {
+      "name": "Nicu Ciocan",
+      "address": "nicu@regalvoice.com"
+    },
+    "threadId": "be9aa829a7a099c4",
+    "bodySnippet": "The Regal Page is nice",
+    "contactPhone": "+19283707704",
+    "messageId": "be9aa829a7a099c4",
+    "name": "Email Sent",
+    "toEmails": [
+      {
+        "name": "",
+        "address": "nicu.ciocan@clever-software-solutions.com"
+      }
+    ],
+    "rvInfo": "circle-bank-segment#event#email#Email Sent#1728999073#d4196b217c688ebb73386a9cdc6047ba",
+    "deliveredToEmails": [],
+    "bccEmails": [],
+    "ccEmails": []
+  },
+  {
+    "subject": "another test",
+    "eventType": "email",
+    "createdAt": "1728998235",
+    "senderEmail": {
+      "name": "Nicu Ciocan",
+      "address": "nicu@regalvoice.com"
+    },
+    "threadId": "a7277edca6259a86",
+    "bodySnippet": "kbkbk hiigbi hjvjhv Why do we use it? It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that",
+    "contactPhone": "+19283707704",
+    "attachments": [
+      {
+        "file_name": "update brand settings redux.png",
+        "file_type": "image/png"
+      }
+    ],
+    "messageId": "a7277edca6259a86",
+    "name": "Email Sent",
+    "toEmails": [
+      {
+        "name": "",
+        "address": "nicu.ciocan@clever-software-solutions.com"
+      }
+    ],
+    "rvInfo": "circle-bank-segment#event#email#Email Sent#1728998235#f8f9c6de125f58c1c99003baaa93b96f",
+    "deliveredToEmails": [],
+    "bccEmails": [],
+    "ccEmails": []
+  },
+  {
+    "subject": "test",
+    "eventType": "email",
+    "createdAt": "1728998182",
+    "senderEmail": {
+      "name": "Nicu Ciocan",
+      "address": "nicu@regalvoice.com"
+    },
+    "threadId": "8a3ed40dc4435977",
+    "bodySnippet": "test",
+    "contactPhone": "+19283707704",
+    "messageId": "8a3ed40dc4435977",
+    "name": "Email Sent",
+    "toEmails": [
+      {
+        "name": "",
+        "address": "nicu.ciocan@clever-software-solutions.com"
+      }
+    ],
+    "rvInfo": "circle-bank-segment#event#email#Email Sent#1728998182#5de440e3dd84aaf5745c77311be8ca92",
+    "deliveredToEmails": [],
+    "bccEmails": [],
+    "ccEmails": []
+  },
+  {
+    "subject": "Re: ok",
+    "eventType": "email",
+    "createdAt": "1728926266",
+    "senderEmail": {
+      "name": "Yael Goldstein",
+      "address": "yael@regalvoice.com"
+    },
+    "threadId": "cd07d47554bd234d",
+    "bodySnippet": "hey Yael Goldstein Lead Product Manager, Regal.io The outbound phone and sms sales solution built to drive more conversations so you can hit your growth goals way faster. Intro deck here.",
+    "contactPhone": "+19283707704",
+    "messageId": "502e96fe1ffc4a7b",
+    "name": "Email Sent",
+    "ccEmails": [
+      {
+        "name": "",
+        "address": "yael@gold.ly"
+      }
+    ],
+    "toEmails": [
+      {
+        "name": "",
+        "address": "yael@regalvoice.com"
+      },
+      {
+        "name": "",
+        "address": "tomcruisegotmail@gmail.com"
+      }
+    ],
+    "rvInfo": "circle-bank-segment#event#email#Email Sent#1728926266#a7966805f12aae699a214883091a8436",
+    "deliveredToEmails": [],
+    "bccEmails": []
+  },
+  {
+    "eventType": "track",
+    "createdAt": "1728385597",
+    "name": "Contacted After Hours",
+    "contactPhone": "+19283707704",
+    "properties": {
+      "channel": "sms",
+      "regal_voice_phone": "+14062956306",
+      "regal_voice_phone_friendly_name": "Cobra Kai 2: This Time It's Personal"
+    },
+    "rvInfo": "circle-bank-segment#event#track#Contacted After Hours#1728385597#8f861955f3f2d48a609df63ac6564894",
+    "regalVoicePhone": "+14062956306",
+    "callSid": null,
+    "regalVoicePhoneFriendlyName": "Cobra Kai 2: This Time It's Personal"
+  },
+  {
+    "eventType": "track",
+    "createdAt": "1728045178",
+    "name": "Contacted After Hours",
+    "contactPhone": "+19283707704",
+    "properties": {
+      "channel": "sms",
+      "regal_voice_phone": "+14062956306",
+      "regal_voice_phone_friendly_name": "Cobra Kai 2: This Time It's Personal"
+    },
+    "rvInfo": "circle-bank-segment#event#track#Contacted After Hours#1728045178#d4b5a2172b2bfecf9bd27645dd5976d8",
+    "regalVoicePhone": "+14062956306",
+    "callSid": null,
+    "regalVoicePhoneFriendlyName": "Cobra Kai 2: This Time It's Personal"
+  },
+  {
+    "eventType": "track",
+    "createdAt": "1727958885",
+    "name": "Contacted After Hours",
+    "contactPhone": "+19283707704",
+    "properties": {
+      "channel": "sms",
+      "regal_voice_phone": "+14062956306",
+      "regal_voice_phone_friendly_name": "Cobra Kai 2: This Time It's Personal"
+    },
+    "rvInfo": "circle-bank-segment#event#track#Contacted After Hours#1727958885#26423a680d1a05a12efe24b131b7457d",
+    "regalVoicePhone": "+14062956306",
+    "callSid": null,
+    "regalVoicePhoneFriendlyName": "Cobra Kai 2: This Time It's Personal"
+  },
+  {
+    "eventType": "regal_voice_event",
+    "createdAt": "1724427498",
+    "name": "call.transcript.available",
+    "contactPhone": "+19283707704",
+    "rvInfo": "circle-bank-segment#event#regal_voice_event#call.transcript.available#1724427498#c1719f921d1c0a677122e3ccc3b26d34",
+    "taskSid": "WT674d39a082ff4dc4d6c0ffa83dc9383c",
+    "callSummary": null,
+    "sentiments": null
+  },
+  {
+    "eventType": "regal_voice_event",
+    "createdAt": "1724427167",
+    "name": "call.transcript.available",
+    "contactPhone": "+19283707704",
+    "rvInfo": "circle-bank-segment#event#regal_voice_event#call.transcript.available#1724427167#03b4a80933c34771fa53576b5476970e",
+    "taskSid": "WTebf2b124138d42c3a6e3a6f590a21516",
+    "callSummary": null,
+    "sentiments": null
+  },
+  {
+    "eventType": "regal_voice_event",
+    "createdAt": "1721744651",
+    "name": "call.transcript.available",
+    "contactPhone": "+19283707704",
+    "rvInfo": "circle-bank-segment#event#regal_voice_event#call.transcript.available#1721744651#9e4570220f6cd1d91ffb120a0ce2d40b",
+    "taskSid": "WT3134a263211733c8546733de0ad943d4",
+    "callSummary": "The call ended with the transfer agent successfully transferring the call to another agent, but the call was abruptly ended by the person on the other end hanging up.",
+    "sentiments": null
+  },
+  {
+    "eventType": "regal_voice_event",
+    "createdAt": "1721321749",
+    "name": "call.transcript.available",
+    "contactPhone": "+19283707704",
+    "rvInfo": "circle-bank-segment#event#regal_voice_event#call.transcript.available#1721321749#32cc52d870a872a12bf13bc69a795996",
+    "taskSid": "WT32e42dd1d798465e03cf8f0b4677293a",
+    "callSummary": null,
+    "sentiments": null
+  },
+  {
+    "eventType": "regal_voice_event",
+    "createdAt": "1721321639",
+    "name": "call.transcript.available",
+    "contactPhone": "+19283707704",
+    "rvInfo": "circle-bank-segment#event#regal_voice_event#call.transcript.available#1721321639#4ad1577086c60565cfecc999240b544a",
+    "taskSid": "WT678fff119017f9d0a0f8c100c66b31ec",
+    "callSummary": null,
+    "sentiments": null
+  },
+  {
+    "eventType": "regal_voice_event",
+    "createdAt": "1721319988",
+    "name": "call.transcript.available",
+    "contactPhone": "+19283707704",
+    "rvInfo": "circle-bank-segment#event#regal_voice_event#call.transcript.available#1721319988#14739457b65dd151f79f39d9eacb6f8b",
+    "taskSid": "WT7833759fb0ecc3ebdaed499a3d7b31b8",
+    "callSummary": null,
+    "sentiments": null
+  },
+  {
+    "eventType": "regal_voice_event",
+    "createdAt": "1721319589",
+    "name": "call.transcript.available",
+    "contactPhone": "+19283707704",
+    "rvInfo": "circle-bank-segment#event#regal_voice_event#call.transcript.available#1721319589#2f23c83852f29552922be86ac648b406",
+    "taskSid": "WT05685f8828303da3c45c2d2616a8132d",
+    "callSummary": "The call ended with the handling agent suggesting to test the changes made earlier with the contact agreeing to do so.",
+    "sentiments": null
+  },
+  {
+    "eventType": "regal_voice_event",
+    "createdAt": "1721319259",
+    "name": "call.transcript.available",
+    "contactPhone": "+19283707704",
+    "rvInfo": "circle-bank-segment#event#regal_voice_event#call.transcript.available#1721319259#566f1d592204d14bd142934f6e4d516c",
+    "taskSid": "WTc1cd6c8acac6892c69fa655f4cbe3967",
+    "callSummary": "The call ended with the contact mentioning that they muted the task due to hearing an echo and not being able to hear properly. The handling agent acknowledged this and the call ended at that point.",
+    "sentiments": {
+      "contact_sentiment": 75,
+      "contact_sentiment_reason": "The contact had a technical issue but was able to resolve it with the agent's help.",
+      "agent_sentiment": 85,
+      "agent_sentiment_reason": "The handling agent was understanding and patient with the contact's technical issue."
+    }
+  },
+  {
+    "eventType": "regal_voice_event",
+    "createdAt": "1721319162",
+    "name": "call.transcript.available",
+    "contactPhone": "+19283707704",
+    "rvInfo": "circle-bank-segment#event#regal_voice_event#call.transcript.available#1721319162#4b5441918e3314097719254cfc910c29",
+    "taskSid": "WT9b250b014b87d836487aeaf1a0774a4b",
+    "callSummary": "The call was successfully connected to the contact after the handling agent refreshed the call.",
+    "sentiments": null
+  },
+  {
+    "eventType": "regal_voice_event",
+    "createdAt": "1721319088",
+    "name": "call.transcript.available",
+    "contactPhone": "+19283707704",
+    "rvInfo": "circle-bank-segment#event#regal_voice_event#call.transcript.available#1721319088#4f75fa160505b55d8fc8fa56d7f749da",
+    "taskSid": "WTee6df2b130310432269179384cc5dbcb",
+    "callSummary": "The call ended with the handling agent expressing frustration over a recurring problem that keeps arising despite efforts to fix it. The focus of the call was deemed unusable and unattainable due to the ongoing issues.",
+    "sentiments": null
+  },
+  {
+    "eventType": "regal_voice_event",
+    "createdAt": "1721314993",
+    "name": "call.transcript.available",
+    "contactPhone": "+19283707704",
+    "rvInfo": "circle-bank-segment#event#regal_voice_event#call.transcript.available#1721314993#7133937780ba94aa23a77c47fce3a718",
+    "taskSid": "WTcd9dd28f4728779b87cfe8bbd696d03b",
+    "callSummary": null,
+    "sentiments": null
+  },
+  {
+    "eventType": "regal_voice_event",
+    "createdAt": "1721313713",
+    "name": "call.transcript.available",
+    "contactPhone": "+19283707704",
+    "rvInfo": "circle-bank-segment#event#regal_voice_event#call.transcript.available#1721313713#0772e6382148916316d1b3ceaccda82c",
+    "taskSid": "WTf1f1dcb966213861a1ef9e871413d829",
+    "callSummary": "The call was about testing email transfer functionality and checking if the call transfer process was working correctly. The agents were discussing technical issues related to the call transfer feature, such as not being able to see all participants during the transfer and encountering bugs in the system. The call ended with the agents still troubleshooting the technical problems they were facing.",
+    "sentiments": null
+  },
+  {
+    "eventType": "regal_voice_event",
+    "createdAt": "1721312851",
+    "name": "call.transcript.available",
+    "contactPhone": "+19283707704",
+    "rvInfo": "circle-bank-segment#event#regal_voice_event#call.transcript.available#1721312851#942afc7b894bd474f193c266da6b6d32",
+    "taskSid": "WTc492424719fe4f755648ddb68f047610",
+    "callSummary": "The call ended abruptly without a successful sales pitch or outcome.",
+    "sentiments": null
+  },
+  {
+    "eventType": "regal_voice_event",
+    "createdAt": "1720536170",
+    "name": "call.transcript.available",
+    "contactPhone": "+19283707704",
+    "rvInfo": "circle-bank-segment#event#regal_voice_event#call.transcript.available#1720536170#4771b0ec14bf136d990032a36d44c99f",
+    "taskSid": "WT6736dfc873046e540d9e61e23d83e708",
+    "callSummary": null,
+    "sentiments": null
+  },
+  {
+    "eventType": "regal_voice_event",
+    "createdAt": "1720449830",
+    "name": "call.transcript.available",
+    "contactPhone": "+19283707704",
+    "rvInfo": "circle-bank-segment#event#regal_voice_event#call.transcript.available#1720449830#f0543563d380b0005a7a8696fb560522",
+    "taskSid": "WT0f351eca714436ef74b1877d52d5428b",
+    "callSummary": null,
+    "sentiments": null
+  },
+  {
+    "eventType": "regal_voice_event",
+    "createdAt": "1717591373",
+    "name": "voicemail.transcript.available",
+    "contactPhone": "+19283707704",
+    "properties": {
+      "recording_link": "https://example.com/file.mp3"
+    },
+    "rvInfo": "circle-bank-segment#event#regal_voice_event#voicemail.transcript.available#1717591373#564ade66fc4dca266560438d6ca7d3a3",
+    "callSid": "CAee38831e912bee8619d5dd559fbf1ef9"
+  },
+  {
+    "eventType": "regal_voice_event",
+    "createdAt": "1717591363",
+    "name": "voicemail.recording.available",
+    "contactPhone": "+19283707704",
+    "properties": {
+      "recording_link": "https://example.com/file.mp3",
+      "regal_voice_phone": "+14062956306",
+      "talk_time": 8,
+      "regal_voice_phone_friendly_name": "Cobra Kai 2: This Time It's Personal"
+    },
+    "rvInfo": "circle-bank-segment#event#regal_voice_event#voicemail.recording.available#1717591363#49fcaa5b3c9baf471d80a11065af9009",
+    "callSid": "CAee38831e912bee8619d5dd559fbf1ef9"
+  },
+  {
+    "eventType": "track",
+    "createdAt": "1715874605",
+    "name": "Scheduled Callback Request",
+    "contactPhone": "+19283707704",
+    "properties": {
+      "agent_fullname": "Regal Voice Circle Bank Segment",
+      "agent_id": "client:login_2Bcbs_40regalvoice_2Ecom",
+      "callback_type": "scheduled",
+      "campaign_info": {
+        "campaign_name": "The power of calling",
+        "eligible_offer": null,
+        "friendly_id": "707",
+        "campaign_type": "agent-task",
+        "campaign_goal": "Testing a bug",
+        "id": "fb3ca9cb-de11-4e45-8337-acb5b95653fc",
+        "campaign_description": "",
+        "script": null,
+        "voicemail_instructions": "empty"
+      },
+      "iso_callback_date": "2024-05-16 11:45:00 -04:00",
+      "iso_callback_timezone": "America/New_York",
+      "notes_from_agent": "",
+      "originating_task_sid": "WT404af154fe37f947a9eac7730e779995",
+      "phone": "+19283707704",
+      "regal_voice_phone": "+14062956306",
+      "requested_through": "agent"
+    },
+    "rvInfo": "circle-bank-segment#event#track#Scheduled Callback Request#1715874605#af5315db0c9ef4cab0f3c5a2eec827b2"
+  },
+  {
+    "eventType": "track",
+    "createdAt": "1708008711",
+    "name": "Scheduled Callback Request",
+    "contactPhone": "+19283707704",
+    "properties": {
+      "agent_fullname": "Regal Voice Circle Bank Segment",
+      "agent_id": "client:login_2Bcbs_40regalvoice_2Ecom",
+      "callback_type": "scheduled",
+      "campaign_info": {
+        "campaign_name": "The power of calling",
+        "campaign_goal": "Testing a bug",
+        "id": "fb3ca9cb-de11-4e45-8337-acb5b95653fc",
+        "voicemail_instructions": "empty",
+        "friendly_id": "707"
+      },
+      "iso_callback_date": "2024-02-08 00:00:00 -05:00",
+      "iso_callback_timezone": "America/New_York",
+      "notes_from_agent": "",
+      "originating_task_sid": "WT8a9f198d5f26b64897529aa8fda722b1",
+      "phone": "+19283707704",
+      "regal_voice_phone": "+14062956306",
+      "requested_through": "agent"
+    },
+    "rvInfo": "circle-bank-segment#event#track#Scheduled Callback Request#1708008711#66b92b021976e28e91043c1ceaf9f8af"
+  },
+  {
+    "eventType": "track",
+    "createdAt": "1708007462",
+    "name": "Scheduled Callback Request",
+    "contactPhone": "+19283707704",
+    "properties": {
+      "agent_fullname": "Regal Voice Circle Bank Segment",
+      "agent_id": "client:login_2Bcbs_40regalvoice_2Ecom",
+      "callback_type": "scheduled",
+      "campaign_info": {
+        "campaign_name": "The power of calling",
+        "campaign_goal": "Testing a bug",
+        "id": "fb3ca9cb-de11-4e45-8337-acb5b95653fc",
+        "voicemail_instructions": "empty",
+        "friendly_id": "707"
+      },
+      "iso_callback_date": "2024-02-08 00:00:00 -05:00",
+      "iso_callback_timezone": "America/New_York",
+      "notes_from_agent": "",
+      "originating_task_sid": "WT717a2e0745493572b44f608b7c38846d",
+      "phone": "+19283707704",
+      "regal_voice_phone": "+14062956306",
+      "requested_through": "agent"
+    },
+    "rvInfo": "circle-bank-segment#event#track#Scheduled Callback Request#1708007462#af86f040f277c5a7677839ae1cc1539f"
+  },
+  {
+    "eventType": "track",
+    "createdAt": "1708007451",
+    "name": "Scheduled Callback Request",
+    "contactPhone": "+19283707704",
+    "properties": {
+      "agent_fullname": "Regal Voice Circle Bank Segment",
+      "agent_id": "client:login_2Bcbs_40regalvoice_2Ecom",
+      "callback_type": "scheduled",
+      "campaign_info": {
+        "campaign_name": "The power of calling",
+        "campaign_goal": "Testing a bug",
+        "id": "fb3ca9cb-de11-4e45-8337-acb5b95653fc",
+        "voicemail_instructions": "empty",
+        "friendly_id": "707"
+      },
+      "iso_callback_date": "2024-02-01 00:00:00 -05:00",
+      "iso_callback_timezone": "America/New_York",
+      "notes_from_agent": "",
+      "originating_task_sid": "WT717a2e0745493572b44f608b7c38846d",
+      "phone": "+19283707704",
+      "regal_voice_phone": "+14062956306",
+      "requested_through": "agent"
+    },
+    "rvInfo": "circle-bank-segment#event#track#Scheduled Callback Request#1708007451#2cd404917e65453bbc79d5436ac2f1b1"
+  },
+  {
+    "eventType": "track",
+    "createdAt": "1708007436",
+    "name": "Scheduled Callback Request",
+    "contactPhone": "+19283707704",
+    "properties": {
+      "agent_fullname": "Regal Voice Circle Bank Segment",
+      "agent_id": "client:login_2Bcbs_40regalvoice_2Ecom",
+      "callback_type": "scheduled",
+      "campaign_info": {
+        "campaign_name": "The power of calling",
+        "campaign_goal": "Testing a bug",
+        "id": "fb3ca9cb-de11-4e45-8337-acb5b95653fc",
+        "voicemail_instructions": "empty",
+        "friendly_id": "707"
+      },
+      "iso_callback_date": "2024-02-01 00:00:00 -05:00",
+      "iso_callback_timezone": "America/New_York",
+      "notes_from_agent": "",
+      "originating_task_sid": "WT717a2e0745493572b44f608b7c38846d",
+      "phone": "+19283707704",
+      "regal_voice_phone": "+14062956306",
+      "requested_through": "agent"
+    },
+    "rvInfo": "circle-bank-segment#event#track#Scheduled Callback Request#1708007436#86b3cc07153e4e5d094d9c2e5bdd032e"
+  },
+  {
+    "eventType": "track",
+    "createdAt": "1708007063",
+    "name": "Scheduled Callback Request",
+    "contactPhone": "+19283707704",
+    "properties": {
+      "agent_fullname": "Regal Voice Circle Bank Segment",
+      "agent_id": "client:login_2Bcbs_40regalvoice_2Ecom",
+      "callback_type": "scheduled",
+      "campaign_info": {
+        "campaign_name": "The power of calling",
+        "campaign_goal": "Testing a bug",
+        "id": "fb3ca9cb-de11-4e45-8337-acb5b95653fc",
+        "voicemail_instructions": "empty",
+        "friendly_id": "707"
+      },
+      "iso_callback_date": "2024-02-15 00:00:00 -05:00",
+      "iso_callback_timezone": "America/New_York",
+      "notes_from_agent": "",
+      "originating_task_sid": "WTf319338206dfb1c519130c7c733752d0",
+      "phone": "+19283707704",
+      "regal_voice_phone": "+14062956306",
+      "requested_through": "agent"
+    },
+    "rvInfo": "circle-bank-segment#event#track#Scheduled Callback Request#1708007063#ad383c694556dafa80eb5c4f54fc78d6"
+  },
+  {
+    "eventType": "track",
+    "createdAt": "1708006993",
+    "name": "Scheduled Callback Request",
+    "contactPhone": "+19283707704",
+    "properties": {
+      "agent_fullname": "Regal Voice Circle Bank Segment",
+      "agent_id": "client:login_2Bcbs_40regalvoice_2Ecom",
+      "callback_type": "scheduled",
+      "campaign_info": {
+        "campaign_name": "The power of calling",
+        "campaign_goal": "Testing a bug",
+        "id": "fb3ca9cb-de11-4e45-8337-acb5b95653fc",
+        "voicemail_instructions": "empty",
+        "friendly_id": "707"
+      },
+      "iso_callback_date": "2024-02-01 00:00:00 -05:00",
+      "iso_callback_timezone": "America/New_York",
+      "notes_from_agent": "",
+      "originating_task_sid": "WT7379ea6fcb767d7ec1e9aee3c004cdb2",
+      "phone": "+19283707704",
+      "regal_voice_phone": "+14062956306",
+      "requested_through": "agent"
+    },
+    "rvInfo": "circle-bank-segment#event#track#Scheduled Callback Request#1708006993#4b1c39ac3038e2d200b08c8f241bd47a"
+  },
+  {
+    "eventType": "track",
+    "createdAt": "1708005714",
+    "name": "Scheduled Callback Request",
+    "contactPhone": "+19283707704",
+    "properties": {
+      "agent_fullname": "Regal Voice Circle Bank Segment",
+      "agent_id": "client:login_2Bcbs_40regalvoice_2Ecom",
+      "callback_type": "scheduled",
+      "iso_callback_date": "2024-02-01 00:00:00 -05:00",
+      "iso_callback_timezone": "America/New_York",
+      "notes_from_agent": "",
+      "originating_task_sid": "WT5a8afae25e1a0d9bc7435577aa0cca9b",
+      "phone": "+19283707704",
+      "regal_voice_phone": "+14062956306",
+      "requested_through": "agent"
+    },
+    "rvInfo": "circle-bank-segment#event#track#Scheduled Callback Request#1708005714#2abf5aec55827abf5099468f0f02419a"
+  },
+  {
+    "eventType": "track",
+    "createdAt": "1708005414",
+    "name": "Scheduled Callback Request",
+    "contactPhone": "+19283707704",
+    "properties": {
+      "agent_fullname": "Regal Voice Circle Bank Segment",
+      "agent_id": "client:login_2Bcbs_40regalvoice_2Ecom",
+      "callback_type": "scheduled",
+      "iso_callback_date": "2024-02-12 14:15:00 -05:00",
+      "iso_callback_timezone": "America/New_York",
+      "notes_from_agent": "",
+      "originating_task_sid": "WT6e95b59c50da527814319f6510622737",
+      "phone": "+19283707704",
+      "regal_voice_phone": "+14062956306",
+      "requested_through": "agent"
+    },
+    "rvInfo": "circle-bank-segment#event#track#Scheduled Callback Request#1708005414#01da6cbafdb8ff67b9e2b89469d38736"
+  },
+  {
+    "eventType": "track",
+    "createdAt": "1695175241",
+    "name": "Scheduled Reminder Event",
+    "contactPhone": "+19283707704",
+    "properties": {
+      "originatingTaskSid": "WT40d93065be688e8fb1550b39a31fe04a",
+      "scheduledAt": "2023-09-19T22:00:00.000-04:00",
+      "schedulingAgentEmail": "login+cbs@regalvoice.com",
+      "schedulingAgentName": "Regal Voice Circle Bank Segment",
+      "schedulingNotes": "",
+      "timezone": "America/New_York"
+    },
+    "rvInfo": "circle-bank-segment#event#track#Scheduled Reminder Event#1695175241#c505a6ed0052f3c591962af438825eb7"
+  }
+]

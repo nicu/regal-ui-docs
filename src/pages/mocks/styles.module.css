@@ -1,0 +1,40 @@
+.page {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.editor {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.split {
+  display: flex;
+  flex-direction: row;
+}
+
+:global(.gutter) {
+  background-color: var(--ifm-navbar-background-color);
+  [data-theme="light"] & {
+    background-color: var(--ifm-navbar-search-input-background-color);
+  }
+}
+
+.actionToolbar {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: end;
+}
+
+.hidden {
+  display: none;
+}
