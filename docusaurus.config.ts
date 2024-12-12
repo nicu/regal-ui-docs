@@ -32,8 +32,20 @@ const config: Config = {
   markdown: {
     mermaid: true,
   },
-  themes: ["@docusaurus/theme-mermaid"],
-  plugins: [require.resolve("docusaurus-lunr-search")],
+  themes: ["@docusaurus/theme-mermaid", "@docusaurus/theme-live-codeblock"],
+  plugins: [
+    require.resolve("docusaurus-lunr-search"),
+    function myDevtoolPlugin() {
+      return {
+        name: "my-devtool-plugin",
+        configureWebpack() {
+          return {
+            devtool: "eval-source-map",
+          };
+        },
+      };
+    },
+  ],
 
   presets: [
     [
@@ -43,15 +55,15 @@ const config: Config = {
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          // editUrl:
+          //   "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          // editUrl:
+          //   "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -64,23 +76,32 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: "My Site",
+      title: "Regal Docs",
       logo: {
-        alt: "My Site Logo",
+        alt: "Regal Logo",
         src: "img/logo.svg",
       },
       items: [
         {
           type: "docSidebar",
-          sidebarId: "tutorialSidebar",
+          sidebarId: "docusaurusTutorialSidebar",
           position: "left",
-          label: "Tutorial",
+          label: "Docs",
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/nicu/regal-ui-docs",
           label: "GitHub",
           position: "right",
+        },
+        {
+          label: "Tools",
+          position: "right",
+          items: [
+            // { to: "/form-builder", label: "Form Builder" },
+            { to: "/mocks/generator", label: "Mock Generator" },
+            { to: "/mocks/matcher", label: "Data Matcher" },
+          ],
         },
       ],
     },
@@ -88,28 +109,11 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "Regal Docs",
           items: [
             {
-              label: "Tutorial",
-              to: "/docs/intro",
-            },
-          ],
-        },
-        {
-          title: "Community",
-          items: [
-            {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
-            },
-            {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
-              label: "Twitter",
-              href: "https://twitter.com/docusaurus",
+              label: "Tests",
+              to: "/docs/tests",
             },
           ],
         },
@@ -122,12 +126,12 @@ const config: Config = {
             },
             {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/nicu/regal-ui-docs",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Regal UI Docs, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
