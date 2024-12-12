@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkregal_ui_docs=self.webpackChunkregal_ui_docs||[]).push([[1903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/regal-ui-docs/blog","blogTitle":"Blog","authorsListPath":"/regal-ui-docs/blog/authors"}')}}]);
