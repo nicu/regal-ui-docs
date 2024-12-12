@@ -10,9 +10,9 @@ import { generate } from "../../lib/generator/generator";
 import Split from "react-split";
 import { faker } from "@faker-js/faker";
 // import initialContent from "./feed";
-import initialContent from "./__mocks__/code";
-// const initialContent = `
-// `;
+// import initialContent from "./__mocks__/code";
+const initialContent = `
+`;
 
 function generateImports(
   entities: Array<{ name: string; isExported: boolean }>
