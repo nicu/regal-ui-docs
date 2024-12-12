@@ -4,13 +4,13 @@ import { useColorMode } from "@docusaurus/theme-common";
 import Layout from "@theme/Layout";
 import Editor from "@monaco-editor/react";
 import styles from "./styles.module.css";
-import { parseContents } from "./lib/parser/parser";
+import { parseContents } from "../../lib/parser/parser";
 import Split from "react-split";
 import initialContent from "./feed";
 // import initialData from "./code.json";
 import initialData from "./feed.json";
-import { ASTEntity } from "./lib/ast";
-import { matchEntities } from "./lib/matcher/matcher";
+import { ASTEntity } from "../../lib/ast";
+import { matchEntities } from "../../lib/matcher/matcher";
 import Button from "@site/src/components/Button/Button";
 
 const MATCH_THRESHOLD = 0.6;

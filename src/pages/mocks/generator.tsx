@@ -4,19 +4,13 @@ import { useColorMode } from "@docusaurus/theme-common";
 import Layout from "@theme/Layout";
 import Editor from "@monaco-editor/react";
 import styles from "./styles.module.css";
-import { parseContents } from "./lib/parser/parser";
-import { generate } from "./lib/generator/generator";
+import { parseContents } from "../../lib/parser/parser";
+import { generate } from "../../lib/generator/generator";
 import Split from "react-split";
 import { faker } from "@faker-js/faker";
 // import initialContent from "./feed";
 // import initialContent from "./code";
 const initialContent = `
-export type Person = {
-    name: string;
-    props: {
-        something: "ok"
-    }
-};
 `;
 
 function generateImports(
