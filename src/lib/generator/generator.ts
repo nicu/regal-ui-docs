@@ -264,166 +264,164 @@ export function generate(
     const anyType = includeTypes ? `: any` : "";
 
     const output = [];
-    if (item.isExported) {
-      switch (item.type) {
-        case "alias":
-          {
-            const values = item.entities
-              .map((entity) => `Mock${entity}()`)
-              .join(", ");
+    // if (item.isExported) {
+    switch (item.type) {
+      case "alias":
+        {
+          const values = item.entities
+            .map((entity) => `Mock${entity}()`)
+            .join(", ");
 
-            output.push(
-              `${exportKeyword}function Mock${item.name}(overrides${overridesType} = {})${resultType} {`
-            );
-            output.push(`  const result = faker.helpers.arrayElement([`);
-            output.push(`    faker.helpers.arrayElement([${values}])`);
-            output.push(`  ]);`);
-            output.push(`  return { ...result, ...overrides }`);
-            output.push(`}`);
+          output.push(
+            `${exportKeyword}function Mock${item.name}(overrides${overridesType} = {})${resultType} {`
+          );
+          output.push(`  const result = faker.helpers.arrayElement([`);
+          output.push(`    faker.helpers.arrayElement([${values}])`);
+          output.push(`  ]);`);
+          output.push(`  return { ...result, ...overrides }`);
+          output.push(`}`);
 
-            output.push("");
+          output.push("");
+        }
+        return output.join("\n");
+
+      case "union":
+        {
+          const values = item.values
+            .map((value) => {
+              return generateConstantValue(
+                value as ASTConstantProperty,
+                item.name,
+                includeTypes
+              );
+            })
+            .join(", ");
+
+          output.push(
+            `${exportKeyword}function Mock${item.name}(overrides${overridesType})${resultType} {`
+          );
+          // output.push(`  const result = faker.helpers.arrayElement([`);
+          // output.push(`   ${values}`);
+          // output.push(`  ]);`);
+          // output.push(`  return overrides ?? result`);
+
+          output.push(
+            `  return overrides ?? faker.helpers.arrayElement([${values}]);`
+          );
+
+          output.push(`}`);
+
+          output.push("");
+        }
+        return output.join("\n");
+
+      case "instance":
+        {
+          const inherits = item.inherits?.map((entity) => `...Mock${entity}()`);
+
+          const properties = item.properties.map((prop) =>
+            generateProperty(prop, prop.name, item.name, includeTypes)
+          );
+
+          output.push(
+            `${exportKeyword}function Mock${item.name}(overrides${overridesType} = {})${resultType} {`
+          );
+          output.push(`  const result = {`);
+          if (inherits?.length) {
+            output.push(`    ${inherits.join(",\n    ")},`);
           }
-          return output.join("\n");
+          output.push(`    ${properties.join(",\n    ")}`);
+          output.push(`  };`);
+          output.push(`  return { ...result, ...overrides }`);
+          output.push(`}`);
 
-        case "union":
-          {
-            const values = item.values
-              .map((value) => {
-                return generateConstantValue(
-                  value as ASTConstantProperty,
-                  item.name,
-                  includeTypes
-                );
-              })
-              .join(", ");
+          output.push("");
+        }
+        return output.join("\n");
 
-            output.push(
-              `${exportKeyword}function Mock${item.name}(overrides${overridesType})${resultType} {`
-            );
-            // output.push(`  const result = faker.helpers.arrayElement([`);
-            // output.push(`   ${values}`);
-            // output.push(`  ]);`);
-            // output.push(`  return overrides ?? result`);
+      case "placeholder":
+        {
+          // 1
+          // output.push(
+          //   `${exportKeyword}function Mock${item.name}(overrides?${overridesType})${resultType} {`
+          // );
 
-            output.push(
-              `  return overrides ?? faker.helpers.arrayElement([${values}]);`
-            );
+          // 2
+          // output.push(
+          //   `${exportKeyword}function Mock${item.name}(overrides${
+          //     includeTypes ? `?${resultType}` : ""
+          //   })${resultType} {`
+          // );
 
-            output.push(`}`);
+          output.push(
+            `${exportKeyword}function Mock${item.name}(overrides${anyType})${resultType} {`
+          );
 
-            output.push("");
-          }
-          return output.join("\n");
+          output.push(`  return {`);
+          output.push(
+            `    /* TODO this is a placeholder because the original type or interface couldn't be parsed. */`
+          );
+          output.push(`    ...overrides`);
+          output.push(`  };`);
+          output.push(`}`);
 
-        case "instance":
-          {
-            const inherits = item.inherits?.map(
-              (entity) => `...Mock${entity}()`
-            );
+          output.push("");
+        }
+        return output.join("\n");
 
-            const properties = item.properties.map((prop) =>
-              generateProperty(prop, prop.name, item.name, includeTypes)
-            );
+      case "constant":
+        {
+          const value = generateConstantValue(
+            item.value as ASTConstantProperty,
+            item.name,
+            includeTypes
+          );
 
-            output.push(
-              `${exportKeyword}function Mock${item.name}(overrides${overridesType} = {})${resultType} {`
-            );
-            output.push(`  const result = {`);
-            if (inherits?.length) {
-              output.push(`    ${inherits.join(",\n    ")},`);
-            }
-            output.push(`    ${properties.join(",\n    ")}`);
-            output.push(`  };`);
-            output.push(`  return { ...result, ...overrides }`);
-            output.push(`}`);
+          output.push(
+            `${exportKeyword}function Mock${item.name}()${resultType} {`
+          );
+          output.push(`  return ${value};`);
+          output.push(`}`);
 
-            output.push("");
-          }
-          return output.join("\n");
+          output.push("");
+        }
+        return output.join("\n");
 
-        case "placeholder":
-          {
-            // 1
-            // output.push(
-            //   `${exportKeyword}function Mock${item.name}(overrides?${overridesType})${resultType} {`
-            // );
+      case "primitive":
+        {
+          const value = generatePrimitive(
+            item.value as ASTPrimitiveProperty,
+            ""
+          );
 
-            // 2
-            // output.push(
-            //   `${exportKeyword}function Mock${item.name}(overrides${
-            //     includeTypes ? `?${resultType}` : ""
-            //   })${resultType} {`
-            // );
+          output.push(
+            `${exportKeyword}function Mock${item.name}()${resultType} {`
+          );
+          output.push(`  return ${value}`);
+          output.push(`}`);
 
-            output.push(
-              `${exportKeyword}function Mock${item.name}(overrides${anyType})${resultType} {`
-            );
+          output.push("");
+        }
+        return output.join("\n");
 
-            output.push(`  return {`);
-            output.push(
-              `    /* TODO this is a placeholder because the original type or interface couldn't be parsed. */`
-            );
-            output.push(`    ...overrides`);
-            output.push(`  };`);
-            output.push(`}`);
+      case "array":
+        {
+          const value = generateArrayValue(item.value, "", includeTypes);
 
-            output.push("");
-          }
-          return output.join("\n");
+          output.push(
+            `${exportKeyword}function Mock${item.name}(overrides${
+              resultType ? `?${resultType}` : ""
+            })${resultType} {`
+          );
+          output.push(`  const result = ${value}`);
+          output.push(`  return overrides ?? result;`);
+          output.push(`}`);
 
-        case "constant":
-          {
-            const value = generateConstantValue(
-              item.value as ASTConstantProperty,
-              item.name,
-              includeTypes
-            );
-
-            output.push(
-              `${exportKeyword}function Mock${item.name}()${resultType} {`
-            );
-            output.push(`  return ${value};`);
-            output.push(`}`);
-
-            output.push("");
-          }
-          return output.join("\n");
-
-        case "primitive":
-          {
-            const value = generatePrimitive(
-              item.value as ASTPrimitiveProperty,
-              ""
-            );
-
-            output.push(
-              `${exportKeyword}function Mock${item.name}()${resultType} {`
-            );
-            output.push(`  return ${value}`);
-            output.push(`}`);
-
-            output.push("");
-          }
-          return output.join("\n");
-
-        case "array":
-          {
-            const value = generateArrayValue(item.value, "", includeTypes);
-
-            output.push(
-              `${exportKeyword}function Mock${item.name}(overrides${
-                resultType ? `?${resultType}` : ""
-              })${resultType} {`
-            );
-            output.push(`  const result = ${value}`);
-            output.push(`  return overrides ?? result;`);
-            output.push(`}`);
-
-            output.push("");
-          }
-          return output.join("\n");
-      }
+          output.push("");
+        }
+        return output.join("\n");
     }
+    // }
   });
 
   return body.join("\n");

@@ -18,7 +18,7 @@ function generateImports(
   entities: Array<{ name: string; isExported: boolean }>
 ) {
   const importedTypes = entities
-    .filter((entity) => entity.isExported)
+    // .filter((entity) => entity.isExported)
     .map((entity) => entity.name)
     .join(", ");
 
