@@ -98,7 +98,7 @@ const config: Config = {
           label: "Tools",
           position: "right",
           items: [
-            // { to: "/form-builder", label: "Form Builder" },
+            { to: "/form-builder", label: "Form Builder" },
             { to: "/mocks/generator", label: "Mock Generator" },
             { to: "/mocks/matcher", label: "Data Matcher" },
           ],
